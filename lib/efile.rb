@@ -12,14 +12,12 @@ class Efile
   def download
     filename = @download_url[@download_url.rindex('/')+1, @download_url.length-1]
 
-    open(@download_url) do |file|
-      download_file = File.new(filename, 'w+')
-      download_file.binmode
-      download_file << file.read
-      download_file.flush
-      download_file.close
-      
-    end
+    download_file = File.new("./download_file/" + filename, 'w+')
+    download_file.binmode
+    download_file << open(@download_url).read
+    download_file.flush
+    download_file.close
+ 
   end
   
 end
