@@ -25,15 +25,20 @@ class Ehtml
   end
 
   def get_download_url(page)
-    file_url = page.search("//div[@id='menubar']").children[1].attribute('href').content
+    page.search("//div[@id='menubar']").children[1].attribute('href').content
   end
 
-  def download_english(url)
+  def download(url)
     Efile.download(url)
   end
 
-  def get_download_caption_url(page)
-    
+  def get_caption_url(page)
+    "http://www.51voa.com" + page.search('//*[@id="menubar"]/a[2]').attribute('href').content
+  end
+
+  def get_content(page)
+    debugger
+    page.search('//*[@id="content"]').text
   end
 
  

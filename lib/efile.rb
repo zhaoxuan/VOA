@@ -20,8 +20,12 @@ class Efile
  
   end
 
+  def self.get_filename(url)
+    url[url.rindex('/')+1, url.length-1]
+  end
+
   def self.download(url)
-    filename = url[url.rindex('/')+1, url.length-1]
+    filename = self.get_filename(url)
 
     download_file = File.new("./download_file/" + filename, 'w+')
     download_file.binmode

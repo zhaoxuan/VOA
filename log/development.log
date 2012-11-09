@@ -797,3 +797,89 @@ E, [2012-11-03 10:43:46#8285] ERROR -- : url http://down.51voa.com/201210/SBA_Wo
 I, [2012-11-03 10:44:25#8285]  INFO -- : download success
 I, [2012-11-03 10:44:47#8285]  INFO -- : download success
 I, [2012-11-03 10:45:01#8285]  INFO -- : download success
+I, [2012-11-06 14:27:31#14523]  INFO -- : download success
+I, [2012-11-06 14:27:47#14523]  INFO -- : download success
+I, [2012-11-06 14:28:03#14523]  INFO -- : download success
+I, [2012-11-06 14:28:06#14523]  INFO -- : download success
+I, [2012-11-06 14:28:13#14523]  INFO -- : download success
+E, [2012-11-06 14:28:13#14523] ERROR -- : url  can not download 
+E, [2012-11-06 14:28:13#14523] ERROR -- : url  can not download 
+I, [2012-11-06 14:28:16#14523]  INFO -- : download success
+I, [2012-11-06 14:28:17#14523]  INFO -- : download success
+I, [2012-11-06 14:28:28#14523]  INFO -- : download success
+I, [2012-11-06 14:28:45#14523]  INFO -- : download success
+I, [2012-11-06 14:28:46#14523]  INFO -- : download success
+I, [2012-11-06 14:28:52#14523]  INFO -- : download success
+I, [2012-11-06 14:29:03#14523]  INFO -- : download success
+I, [2012-11-06 14:29:09#14523]  INFO -- : download success
+I, [2012-11-06 14:29:20#14523]  INFO -- : download success
+E, [2012-11-06 14:29:22#14523] ERROR -- : url  can not download 
+E, [2012-11-06 14:29:22#14523] ERROR -- : url  can not download 
+I, [2012-11-06 14:29:28#14523]  INFO -- : download success
+I, [2012-11-06 14:29:36#14523]  INFO -- : download success
+I, [2012-11-06 14:29:43#14523]  INFO -- : download success
+I, [2012-11-06 14:30:03#14523]  INFO -- : download success
+I, [2012-11-06 14:30:04#14523]  INFO -- : download success
+I, [2012-11-06 14:30:11#14523]  INFO -- : download success
+E, [2012-11-06 14:30:11#14523] ERROR -- : url  can not download 
+E, [2012-11-06 14:30:11#14523] ERROR -- : url  can not download 
+I, [2012-11-06 14:30:13#14523]  INFO -- : download success
+I, [2012-11-06 14:30:14#14523]  INFO -- : download success
+I, [2012-11-06 14:30:20#14523]  INFO -- : download success
+I, [2012-11-06 14:30:27#14523]  INFO -- : download success
+I, [2012-11-06 14:30:48#14523]  INFO -- : download success
+E, [2012-11-06 14:30:48#14523] ERROR -- : url http://down.51voa.com/201211/WEB_Sandy_Climate_Change[dur=00,02,26]_-fixed-x264-Platform_YTHQFull__747835.mp3 can not download 
+I, [2012-11-06 14:30:58#14523]  INFO -- : download success
+E, [2012-11-06 14:30:58#14523] ERROR -- : url  can not download 
+I, [2012-11-06 14:31:26#14523]  INFO -- : download success
+I, [2012-11-06 14:32:33#14523]  INFO -- : download success
+I, [2012-11-06 14:32:37#14523]  INFO -- : download success
+I, [2012-11-06 14:32:47#14523]  INFO -- : download success
+I, [2012-11-06 14:32:56#14523]  INFO -- : download success
+I, [2012-11-06 14:32:59#14523]  INFO -- : download success
+I, [2012-11-06 14:33:00#14523]  INFO -- : download success
+E, [2012-11-06 14:33:00#14523] ERROR -- : url  can not download 
+E, [2012-11-06 14:33:01#14523] ERROR -- : url  can not download 
+I, [2012-11-06 14:35:56#14573]  INFO -- : download success
+I, [2012-11-06 14:36:34#14573]  INFO -- : download success
+I, [2012-11-06 14:37:15#14573]  INFO -- : download success
+I, [2012-11-06 14:37:50#14573]  INFO -- : download success
+I, [2012-11-06 14:37:52#14573]  INFO -- : download success
+E, [2012-11-06 14:37:52#14573] ERROR -- : url /Voa_English_Learning/US_Soldier_to_Appear_in_Court_for_Afghan_Massacre_47424.html can not download 
+E, [2012-11-06 14:37:52#14573] ERROR -- : url /Voa_English_Learning/Obama_Romney_Tied_In_Key_States__47423.html can not download 
+I, [2012-11-06 14:37:56#14573]  INFO -- : download success
+I, [2012-11-06 14:37:57#14573]  INFO -- : download success
+I, [2012-11-06 14:38:05#14573]  INFO -- : download success
+I, [2012-11-06 14:38:12#14573]  INFO -- : download success
+I, [2012-11-06 14:38:22#14573]  INFO -- : download success
+I, [2012-11-06 14:38:23#14573]  INFO -- : download success
+I, [2012-11-06 14:38:25#14573]  INFO -- : download success
+I, [2012-11-06 14:38:28#14573]  INFO -- : download success
+I, [2012-11-06 14:38:37#14573]  INFO -- : download success
+E, [2012-11-06 14:38:37#14573] ERROR -- : url /Voa_English_Learning/New_York_Continues_to_Recover_47410.html can not download 
+E, [2012-11-06 14:38:37#14573] ERROR -- : url /Voa_English_Learning/Election_Tuesday_US_Presidential_Race_Still_Close_47409.html can not download 
+I, [2012-11-06 14:38:43#14573]  INFO -- : download success
+I, [2012-11-06 14:38:50#14573]  INFO -- : download success
+I, [2012-11-06 14:38:53#14573]  INFO -- : download success
+I, [2012-11-06 14:39:02#14573]  INFO -- : download success
+I, [2012-11-06 14:39:14#14573]  INFO -- : download success
+I, [2012-11-06 14:39:24#14573]  INFO -- : download success
+E, [2012-11-06 14:39:24#14573] ERROR -- : url /Voa_English_Learning/Hurricane_Death_Toll_Rising_NYC_Marathon_Still_On____47399.html can not download 
+E, [2012-11-06 14:39:24#14573] ERROR -- : url /Voa_English_Learning/US_Presidential_Race_Back_at_Full_Speed_After_Superstorm_47398.html can not download 
+I, [2012-11-06 14:39:36#14573]  INFO -- : download success
+I, [2012-11-06 14:39:54#14573]  INFO -- : download success
+I, [2012-11-06 14:39:56#14573]  INFO -- : download success
+I, [2012-11-06 14:40:05#14573]  INFO -- : download success
+I, [2012-11-06 14:40:06#14573]  INFO -- : download success
+E, [2012-11-06 14:40:06#14573] ERROR -- : url /VOA_Standard_English/hurricane-sandy-environment-47376.html can not download 
+I, [2012-11-06 14:40:07#14573]  INFO -- : download success
+E, [2012-11-06 14:40:07#14573] ERROR -- : url /Voa_English_Learning/China_Launches_Anti-Dumping_Probe_into_EU_Solar_Products_47387.html can not download 
+I, [2012-11-06 14:40:08#14573]  INFO -- : download success
+I, [2012-11-06 14:41:14#14573]  INFO -- : download success
+I, [2012-11-06 14:41:24#14573]  INFO -- : download success
+I, [2012-11-06 14:41:33#14573]  INFO -- : download success
+I, [2012-11-06 14:41:35#14573]  INFO -- : download success
+I, [2012-11-06 14:41:43#14573]  INFO -- : download success
+I, [2012-11-06 14:41:47#14573]  INFO -- : download success
+E, [2012-11-06 14:41:47#14573] ERROR -- : url /Voa_English_Learning/Obama_Christie_to_View_NJ_Damage____47373.html can not download 
+E, [2012-11-06 14:41:47#14573] ERROR -- : url /Voa_English_Learning/Brahimi_Seeks_Chinese_Support_for_Syria_Solution_47372.html can not download 
