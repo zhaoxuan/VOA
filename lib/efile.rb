@@ -6,7 +6,7 @@ require 'debugger'
 class Efile
   
   def initialize
-    @download_url = 'http://down.51voa.com/201210/se-ed-mali-education-web-24oct12.mp3'
+    # @download_url = 'http://down.51voa.com/201210/se-ed-mali-education-web-24oct12.mp3'
   end
 
   def download(url)
@@ -28,6 +28,7 @@ class Efile
     filename = self.get_filename(url)
 
     download_file = File.new("./download_file/" + filename, 'w+')
+    # debugger
     download_file.binmode
     download_file << open(url).read
     download_file.flush
