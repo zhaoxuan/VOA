@@ -37,7 +37,6 @@ class Ehtml
   end
 
   def get_content(page)
-    debugger
     page.search('//*[@id="content"]').text
   end
 
