@@ -29,7 +29,11 @@ class Ehtml
   end
 
   def get_download_url(page)
-    page.search("//div[@id='menubar']").children[1].attribute('href').content
+    if page.search("//div[@id='menubar']").children[1].nil?
+      return nil
+    else
+      page.search("//div[@id='menubar']").children[1].attribute('href').content
+    end
   end
 
   def download(url, path)
@@ -37,7 +41,16 @@ class Ehtml
   end
 
   def get_caption_url(page)
-    "http://www.51voa.com" + page.search('//*[@id="menubar"]/a[2]').attribute('href').content
+    if page.search('//*[@id="menubar"]/a[2]').length == 0
+      return nil
+    else
+      k = page.search('//*[@id="menubar"]/a[2]').attribute('target')
+      if !k.nil? && k.value == "_blank"
+        return nil
+      else
+        return "http://www.51voa.com" + page.search('//*[@id="menubar"]/a[2]').attribute('href').content
+      end
+    end
   end
 
   def get_content(page)
@@ -45,8 +58,5 @@ class Ehtml
   end
 
  
-
-
-
 
 end

@@ -9,7 +9,6 @@ class Efile
   def download(url, path = 'download_file/')
     filename = @download_url[@download_url.rindex('/')+1, @download_url.length-1]
 
-    debugger
     download_file = File.new("./#{path}" + filename, 'w+')
     download_file.binmode
     download_file << open(@download_url).read
@@ -22,13 +21,18 @@ class Efile
   end
 
   def self.download(url, path = 'download_file/')
-    filename = self.get_filename(url)
+    if url.nil?
+      return false
+    else
+      filename = self.get_filename(url)
 
-    download_file = File.new("./#{path}" + filename, 'w+')
-    download_file.binmode
-    download_file << open(url).read
-    download_file.flush
-    download_file.close
+      download_file = File.new("./#{path}" + filename, 'w+')
+      download_file.binmode
+      download_file << open(url).read
+      download_file.flush
+      download_file.close
+      return true
+    end
   end
   
 end
