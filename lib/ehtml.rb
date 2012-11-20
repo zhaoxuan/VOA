@@ -1,7 +1,4 @@
 #encoding: utf-8
-require 'rubygems'
-require 'debugger'
-require 'mechanize'
 require File.expand_path("../efile", __FILE__)
 
 class Ehtml
@@ -19,7 +16,14 @@ class Ehtml
     result = []
 
     page.search("//div[@id='rightContainer']/span[@id='list']/ul").children.each do |v|
-        result << v.children.last.attribute('href').content
+      # v.children.first.content #分类
+      # v.children.last.content #标题
+      # v.children.last.attribute('href').content #连接
+      result << [
+                  v.children.first.content,
+                  v.children.last.content,
+                  v.children.last.attribute('href').content
+                ]
     end
     result
   end
@@ -28,8 +32,8 @@ class Ehtml
     page.search("//div[@id='menubar']").children[1].attribute('href').content
   end
 
-  def download(url)
-    Efile.download(url)
+  def download(url, path)
+    Efile.download(url, path)
   end
 
   def get_caption_url(page)

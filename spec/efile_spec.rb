@@ -6,7 +6,7 @@ describe Efile, "efile" do
 
   it "shoud download file" do
     efile = Efile.new
-    efile.download
+    efile.download ""
   end
 
 end
