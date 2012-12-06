@@ -21,18 +21,26 @@ class Efile
   end
 
   def self.download(url, path = 'download_file/')
-    if url.nil?
-      return false
-    else
-      filename = self.get_filename(url)
+    return false if url.nil?
 
-      download_file = File.new("./#{path}" + filename, 'w+')
-      download_file.binmode
-      download_file << open(url).read
-      download_file.flush
-      download_file.close
-      return true
-    end
+    filename = self.get_filename(url)
+
+    download_file = File.new("./#{path}" + filename, 'w+')
+    download_file.binmode
+    download_file << open(url).read
+    download_file.flush
+    download_file.close
+    return true
+    
+  end
+
+  def self.download_content(content, title, path)
+    # debugger
+    filename  = self.get_filename(title).gsub(/.mp3/, '.txt')
+    file_path = File.expand_path("../../download_file/content/#{filename}", __FILE__)
+    download_file = File.new(file_path, 'w+')
+    download_file.write(content)
+    download_file.close
   end
   
 end

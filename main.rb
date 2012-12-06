@@ -18,17 +18,23 @@ agent.get_article_array(home_page).each do |donload_info|
   link  = donload_info[2]
 
   begin
-    page  = agent.get_page(link)
+    page     = agent.get_page(link)
+    caption  = agent.get_caption_url(page)
+    download = agent.get_download_url(page)
 
-    caption_url  = URI.encode(agent.get_caption_url(page), '[]')
-    download_url = URI.encode(agent.get_download_url(page), '[]')
+    if caption.nil? && download.nil?
+      logger.info("not mp3 file！ title: #{title} link: #{link} ")
+      next
+    end
 
-    if caption_url.nil?
-      agent.get_content page
-      agent.download(download_url, "download_file/english/") unless download_url.nil?
+    if caption.nil?
+      content = agent.get_content(page)
+      agent.save_content(content, URI.encode(download, '[]'), 'download_file/content')
+
+      agent.download(URI.encode(download, '[]'), "download_file/english/") unless download.nil?
     else
-      agent.download(caption_url, "download_file/english_lrc/")
-      agent.download(download_url, "download_file/english_lrc/")
+      agent.download(URI.encode(caption, '[]'), "download_file/english_lrc/") unless caption.nil?
+      agent.download(URI.encode(download, '[]'), "download_file/english_lrc/") unless download.nil?
     end
 
     logger.info("success")

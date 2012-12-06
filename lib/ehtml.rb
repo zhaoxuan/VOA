@@ -41,20 +41,24 @@ class Ehtml
   end
 
   def get_caption_url(page)
-    if page.search('//*[@id="menubar"]/a[2]').length == 0
+    second_menubar = page.search('//*[@id="menubar"]/a[2]')
+    if second_menubar.length == 0
       return nil
     else
-      k = page.search('//*[@id="menubar"]/a[2]').attribute('target')
-      if !k.nil? && k.value == "_blank"
-        return nil
+      if second_menubar.attribute('target').nil?
+        return "http://www.51voa.com" + second_menubar.attribute('href').content
       else
-        return "http://www.51voa.com" + page.search('//*[@id="menubar"]/a[2]').attribute('href').content
+        return nil
       end
     end
   end
 
   def get_content(page)
-    page.search('//*[@id="content"]').text
+    page.search('//*[@id="content"]').text.gsub(/\\s*|\r|\n/, '')
+  end
+
+  def save_content(content, title, path)
+    Efile.download_content(content, title, path)
   end
 
  

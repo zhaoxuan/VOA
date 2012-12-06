@@ -1,2 +1,4 @@
 download_file/*
 log/*
+.tags_sorted_by_file
+.tags

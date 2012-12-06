@@ -5,15 +5,17 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 Efile	lib/efile.rb	/^class Efile$/;"	c
-download	lib/efile.rb	/^  def download(url)$/;"	f	class:Efile
-download	lib/efile.rb	/^  def self.download(url)$/;"	F	class:Efile
+download	lib/efile.rb	/^  def download(url, path = 'download_file\/')$/;"	f	class:Efile
+download	lib/efile.rb	/^  def self.download(url, path = 'download_file\/')$/;"	F	class:Efile
+download_content	lib/efile.rb	/^  def self.download_content(content, title, path)$/;"	F	class:Efile
 get_filename	lib/efile.rb	/^  def self.get_filename(url)$/;"	F	class:Efile
 initialize	lib/efile.rb	/^  def initialize$/;"	f	class:Efile
 Ehtml	lib/ehtml.rb	/^class Ehtml$/;"	c
-download	lib/ehtml.rb	/^  def download(url)$/;"	f
+download	lib/ehtml.rb	/^  def download(url, path)$/;"	f
 get_article_array	lib/ehtml.rb	/^  def get_article_array(page)$/;"	f	class:Ehtml
 get_caption_url	lib/ehtml.rb	/^  def get_caption_url(page)$/;"	f
 get_content	lib/ehtml.rb	/^  def get_content(page)$/;"	f
 get_download_url	lib/ehtml.rb	/^  def get_download_url(page)$/;"	f
 get_page	lib/ehtml.rb	/^  def get_page(page_url)$/;"	f	class:Ehtml
 initialize	lib/ehtml.rb	/^  def initialize$/;"	f	class:Ehtml
+save_content	lib/ehtml.rb	/^  def save_content(content, title, path)$/;"	f

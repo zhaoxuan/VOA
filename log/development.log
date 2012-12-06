@@ -1198,3 +1198,712 @@ I, [2012-11-20 18:22:27#84360]  INFO -- : download success
 I, [2012-11-20 18:22:37#84360]  INFO -- : download success
 I, [2012-11-20 18:22:45#84360]  INFO -- : download success
 I, [2012-11-20 18:22:49#84360]  INFO -- : download success
+I, [2012-11-22 09:11:38#90664]  INFO -- : success
+E, [2012-11-22 09:11:38#90664] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:38#90664] ERROR -- : can not download title: Critics of Jordan's King Bemoan Missed Opportunities (2012-11-22) link: /VOA_Standard_English/critics_of_jordans_king_bemoan_missed_opportunities-47624.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:38#90664] ERROR -- : can not download title: 1642 reserve  (2012-11-22) link: /Voa_English_Learning/1642_reserve__47626.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:38#90664] ERROR -- : can not download title: 1641 closed-door  (2012-11-22) link: /Voa_English_Learning/1641-closed-door__47625.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:38#90664] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:38#90664] ERROR -- : can not download title: 226 Body Language 4  (2012-11-22) link: /Voa_English_Learning/226-Body_Language_4_47628.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:38#90664] ERROR -- : can not download title:  Clinton Heads to Ramallah and Cairo As Israeli-Palestinian Fighting Continues (2012-11-22) link: /Voa_English_Learning/Clinton_Heads_to_Ramallah_and_Cairo_As_Israeli-Palestinian_Fighting_Continues_47614.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:38#90664] ERROR -- : can not download title:  Suicide Blast Kills 2 in Afghan Capital (2012-11-22) link: /Voa_English_Learning/Suicide_Blast_Kills_2_in_Afghan_Capital_47613.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 09:11:51#90664]  INFO -- : success
+E, [2012-11-22 09:11:51#90664] ERROR -- : can not download title: 1890's Gold Rush   (2012-11-21) link: /VOA_Special_English/klondike-yukon-gold-47608.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:51#90664] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - WEDNESDAY  (2012-11-21) link: /VOA_Special_English/VOA_News_Wednesday.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:51#90664] ERROR -- : can not download title:  During Meeting With Obama,Japan's Noda Welcomes US 'Pivot' (2012-11-21) link: /Voa_English_Learning/During_Meeting_With_Obama_Japan_s_Noda_Welcomes_US_Pivot_47605.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:51#90664] ERROR -- : can not download title:  Israel Pounds Gaza as Clinton Plans Mid East Diplomacy Trip (2012-11-21) link: /Voa_English_Learning/Israel_Pounds_Gaza_as_Clinton_Plans_Mid_East_Diplomacy_Trip_47604.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:52#90664] ERROR -- : can not download title: US president Obama visits Burma (2012-11-20) link: /VOA_Standard_English/US president Obama visits Burma-47592.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:52#90664] ERROR -- : can not download title: Experts Not Hopeful About Doha Climate Conference (2012-11-20) link: /VOA_Standard_English/tough_issues_low_expectations_for_doha_climate_change-47591.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:52#90664] ERROR -- : can not download title: Scandals Highlight Ethics Lapses in Military (2012-11-20) link: /VOA_Standard_English/scandals_highlight_ethics_lapses_in_military-47590.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:52#90664] ERROR -- : can not download title: Holiday Season Features Latest, Hottest Electronic Gadgets (2012-11-20) link: /VOA_Standard_English/holiday_season_features_latest_hottest_electroni_gadgets-47589.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:52#90664] ERROR -- : can not download title:  Obama Meets with Aung San Suu Kyi in Rangoon (2012-11-20) link: /Voa_English_Learning/Obama_Meets_with_Aung_San_Suu_Kyi_in_Rangoon_47597.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:53#90664] ERROR -- : can not download title:  Colombia, FARC Seek End to Conflict (2012-11-20) link: /Voa_English_Learning/Colombia_FARC_Seek_End_to_Conflict_47596.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 09:11:59#90664]  INFO -- : success
+E, [2012-11-22 09:11:59#90664] ERROR -- : can not download title: Maurice Sendak, 1928-2012: His Imagination Redefined Children’s Literature  (2012-11-19) link: /VOA_Special_English/transcript-47588.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:59#90664] ERROR -- : can not download title: Anti-Terror Operations Stoke Religious Tension in Kenya (2012-11-19) link: /VOA_Standard_English/anti-terror-operations-stroke-religious-tensions-in-kenya-47582.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:11:59#90664] ERROR -- : can not download title: 1640 self-gifting  (2012-11-19) link: /Voa_English_Learning/1640-self-gifting__47585.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 09:12:06#90664]  INFO -- : success
+E, [2012-11-22 09:12:07#90664] ERROR -- : can not download title: Efforts Mount to Conserve Wild Turkey Breeds (2012-11-18) link: /VOA_Standard_English/efforts-mount-to-conserve-wild-turkey-breeds-47578.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:07#90664] ERROR -- : can not download title: World Prematurity Day Aims to Lower Rates of Premature Births (2012-11-18) link: /VOA_Standard_English/world-prematuritu-day-aimes-to-lower-rates-of-premature-births-47577.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:07#90664] ERROR -- : can not download title: Historic Marijuana Vote Pits States Against US Government (2012-11-18) link: /VOA_Standard_English/marijuana-vote-us-states-47580.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 09:12:15#90664]  INFO -- : success
+E, [2012-11-22 09:12:15#90664] ERROR -- : can not download title: Israel-Gaza Volleys Take Civilian Toll (2012-11-17) link: /VOA_Standard_English/israel-gaza-volleys-take-civilian-toll-47571.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:15#90664] ERROR -- : can not download title: Panetta: Gaza Violence Cause for Concern (2012-11-17) link: /VOA_Standard_English/panetta-gaza-violence-47570.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:15#90664] ERROR -- : can not download title:  Petraeus Testifies on Capitol Hill about Libya Attack (2012-11-17) link: /Voa_English_Learning/Petraeus_Testifies_on_Capitol_Hill_about_Libya_Attack_47574.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:15#90664] ERROR -- : can not download title:  Obama to Highlight Human Rights on Southeast Asian Trip (2012-11-17) link: /Voa_English_Learning/Obama_to_Highlight_Human_Rights_on_Southeast_Asian_Trip_47573.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 09:12:21#90664]  INFO -- : success
+E, [2012-11-22 09:12:22#90664] ERROR -- : can not download title: Virginia Museum Show Features Glass Art Pioneer Dale Chihuly  (2012-11-16) link: /VOA_Special_English/chihuly-glass-blowing-chinese-one-direction-aerosmith-47566.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:22#90664] ERROR -- : can not download title: Burma Stop Expected to Highlight Obama Asia Tour (2012-11-16) link: /VOA_Standard_English/burma-expected-to-highlight-obama-southeast-asia-tour-47557.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:22#90664] ERROR -- : can not download title: Afghan Economy Slows  (2012-11-16) link: /VOA_Standard_English/afghan-economy-slows-on-fears-of-reduced-investment-47556.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:22#90664] ERROR -- : can not download title: US 'Patriotic Millionaires': 'Tax Us More' (2012-11-16) link: /VOA_Standard_English/article-47555.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:22#90664] ERROR -- : can not download title: 1639 self-centered  (2012-11-16) link: /Voa_English_Learning/1639-self-centered__47562.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:22#90664] ERROR -- : can not download title: 1638 well-being  (2012-11-16) link: /Voa_English_Learning/1638-well-being__47561.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:22#90664] ERROR -- : can not download title:  Burma to Release 452 Prisoners Ahead of Obama's Visit (2012-11-16) link: /Voa_English_Learning/Burma_to_Release_452_Prisoners_Ahead_of_Obama's_Visit_47553.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:12:22#90664] ERROR -- : can not download title:  NSC Ends Emergency Meeting After Israeli Strike Kills Hamas Commander (2012-11-16) link: /Voa_English_Learning/NSC_Ends_Emergency_Meeting_After_Israeli_Strike_Kills_Hamas_Commander_47552.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 09:12:28#90664]  INFO -- : success
+I, [2012-11-22 09:51:21#90777]  INFO -- : success
+E, [2012-11-22 09:51:21#90777] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:51:21#90777] ERROR -- : can not download title: Critics of Jordan's King Bemoan Missed Opportunities (2012-11-22) link: /VOA_Standard_English/critics_of_jordans_king_bemoan_missed_opportunities-47624.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:51:21#90777] ERROR -- : can not download title: 1642 reserve  (2012-11-22) link: /Voa_English_Learning/1642_reserve__47626.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:51:21#90777] ERROR -- : can not download title: 1641 closed-door  (2012-11-22) link: /Voa_English_Learning/1641-closed-door__47625.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:51:22#90777] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:51:22#90777] ERROR -- : can not download title: 226 Body Language 4  (2012-11-22) link: /Voa_English_Learning/226-Body_Language_4_47628.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:51:22#90777] ERROR -- : can not download title:  Clinton Heads to Ramallah and Cairo As Israeli-Palestinian Fighting Continues (2012-11-22) link: /Voa_English_Learning/Clinton_Heads_to_Ramallah_and_Cairo_As_Israeli-Palestinian_Fighting_Continues_47614.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:51:22#90777] ERROR -- : can not download title:  Suicide Blast Kills 2 in Afghan Capital (2012-11-22) link: /Voa_English_Learning/Suicide_Blast_Kills_2_in_Afghan_Capital_47613.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 09:56:00#90777]  INFO -- : success
+E, [2012-11-22 09:56:02#90777] ERROR -- : can not download title: 1890's Gold Rush   (2012-11-21) link: /VOA_Special_English/klondike-yukon-gold-47608.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:02#90777] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - WEDNESDAY  (2012-11-21) link: /VOA_Special_English/VOA_News_Wednesday.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:02#90777] ERROR -- : can not download title:  During Meeting With Obama,Japan's Noda Welcomes US 'Pivot' (2012-11-21) link: /Voa_English_Learning/During_Meeting_With_Obama_Japan_s_Noda_Welcomes_US_Pivot_47605.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:02#90777] ERROR -- : can not download title:  Israel Pounds Gaza as Clinton Plans Mid East Diplomacy Trip (2012-11-21) link: /Voa_English_Learning/Israel_Pounds_Gaza_as_Clinton_Plans_Mid_East_Diplomacy_Trip_47604.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:02#90777] ERROR -- : can not download title: US president Obama visits Burma (2012-11-20) link: /VOA_Standard_English/US president Obama visits Burma-47592.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:02#90777] ERROR -- : can not download title: Experts Not Hopeful About Doha Climate Conference (2012-11-20) link: /VOA_Standard_English/tough_issues_low_expectations_for_doha_climate_change-47591.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:03#90777] ERROR -- : can not download title: Scandals Highlight Ethics Lapses in Military (2012-11-20) link: /VOA_Standard_English/scandals_highlight_ethics_lapses_in_military-47590.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:03#90777] ERROR -- : can not download title: Holiday Season Features Latest, Hottest Electronic Gadgets (2012-11-20) link: /VOA_Standard_English/holiday_season_features_latest_hottest_electroni_gadgets-47589.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:03#90777] ERROR -- : can not download title:  Obama Meets with Aung San Suu Kyi in Rangoon (2012-11-20) link: /Voa_English_Learning/Obama_Meets_with_Aung_San_Suu_Kyi_in_Rangoon_47597.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 09:56:03#90777] ERROR -- : can not download title:  Colombia, FARC Seek End to Conflict (2012-11-20) link: /Voa_English_Learning/Colombia_FARC_Seek_End_to_Conflict_47596.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 09:57:33#90793]  INFO -- : success
+I, [2012-11-22 10:13:53#90885]  INFO -- : success
+E, [2012-11-22 10:14:08#90885] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:15:12#90894]  INFO -- : success
+E, [2012-11-22 10:15:14#90894] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:14#90894] ERROR -- : can not download title: Critics of Jordan's King Bemoan Missed Opportunities (2012-11-22) link: /VOA_Standard_English/critics_of_jordans_king_bemoan_missed_opportunities-47624.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:14#90894] ERROR -- : can not download title: 1642 reserve  (2012-11-22) link: /Voa_English_Learning/1642_reserve__47626.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:14#90894] ERROR -- : can not download title: 1641 closed-door  (2012-11-22) link: /Voa_English_Learning/1641-closed-door__47625.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:15#90894] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:15#90894] ERROR -- : can not download title: 226 Body Language 4  (2012-11-22) link: /Voa_English_Learning/226-Body_Language_4_47628.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:15#90894] ERROR -- : can not download title:  Clinton Heads to Ramallah and Cairo As Israeli-Palestinian Fighting Continues (2012-11-22) link: /Voa_English_Learning/Clinton_Heads_to_Ramallah_and_Cairo_As_Israeli-Palestinian_Fighting_Continues_47614.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:15#90894] ERROR -- : can not download title:  Suicide Blast Kills 2 in Afghan Capital (2012-11-22) link: /Voa_English_Learning/Suicide_Blast_Kills_2_in_Afghan_Capital_47613.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:15:27#90894]  INFO -- : success
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title: 1890's Gold Rush   (2012-11-21) link: /VOA_Special_English/klondike-yukon-gold-47608.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - WEDNESDAY  (2012-11-21) link: /VOA_Special_English/VOA_News_Wednesday.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title:  During Meeting With Obama,Japan's Noda Welcomes US 'Pivot' (2012-11-21) link: /Voa_English_Learning/During_Meeting_With_Obama_Japan_s_Noda_Welcomes_US_Pivot_47605.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title:  Israel Pounds Gaza as Clinton Plans Mid East Diplomacy Trip (2012-11-21) link: /Voa_English_Learning/Israel_Pounds_Gaza_as_Clinton_Plans_Mid_East_Diplomacy_Trip_47604.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title: US president Obama visits Burma (2012-11-20) link: /VOA_Standard_English/US president Obama visits Burma-47592.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title: Experts Not Hopeful About Doha Climate Conference (2012-11-20) link: /VOA_Standard_English/tough_issues_low_expectations_for_doha_climate_change-47591.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title: Scandals Highlight Ethics Lapses in Military (2012-11-20) link: /VOA_Standard_English/scandals_highlight_ethics_lapses_in_military-47590.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title: Holiday Season Features Latest, Hottest Electronic Gadgets (2012-11-20) link: /VOA_Standard_English/holiday_season_features_latest_hottest_electroni_gadgets-47589.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:28#90894] ERROR -- : can not download title:  Obama Meets with Aung San Suu Kyi in Rangoon (2012-11-20) link: /Voa_English_Learning/Obama_Meets_with_Aung_San_Suu_Kyi_in_Rangoon_47597.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:29#90894] ERROR -- : can not download title:  Colombia, FARC Seek End to Conflict (2012-11-20) link: /Voa_English_Learning/Colombia_FARC_Seek_End_to_Conflict_47596.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:15:43#90894]  INFO -- : success
+E, [2012-11-22 10:15:43#90894] ERROR -- : can not download title: Maurice Sendak, 1928-2012: His Imagination Redefined Children’s Literature  (2012-11-19) link: /VOA_Special_English/transcript-47588.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:43#90894] ERROR -- : can not download title: Anti-Terror Operations Stoke Religious Tension in Kenya (2012-11-19) link: /VOA_Standard_English/anti-terror-operations-stroke-religious-tensions-in-kenya-47582.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:43#90894] ERROR -- : can not download title: 1640 self-gifting  (2012-11-19) link: /Voa_English_Learning/1640-self-gifting__47585.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:15:53#90894]  INFO -- : success
+E, [2012-11-22 10:15:54#90894] ERROR -- : can not download title: Efforts Mount to Conserve Wild Turkey Breeds (2012-11-18) link: /VOA_Standard_English/efforts-mount-to-conserve-wild-turkey-breeds-47578.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:54#90894] ERROR -- : can not download title: World Prematurity Day Aims to Lower Rates of Premature Births (2012-11-18) link: /VOA_Standard_English/world-prematuritu-day-aimes-to-lower-rates-of-premature-births-47577.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:15:54#90894] ERROR -- : can not download title: Historic Marijuana Vote Pits States Against US Government (2012-11-18) link: /VOA_Standard_English/marijuana-vote-us-states-47580.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:16:07#90894]  INFO -- : success
+E, [2012-11-22 10:16:08#90894] ERROR -- : can not download title: Israel-Gaza Volleys Take Civilian Toll (2012-11-17) link: /VOA_Standard_English/israel-gaza-volleys-take-civilian-toll-47571.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:08#90894] ERROR -- : can not download title: Panetta: Gaza Violence Cause for Concern (2012-11-17) link: /VOA_Standard_English/panetta-gaza-violence-47570.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:08#90894] ERROR -- : can not download title:  Petraeus Testifies on Capitol Hill about Libya Attack (2012-11-17) link: /Voa_English_Learning/Petraeus_Testifies_on_Capitol_Hill_about_Libya_Attack_47574.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:08#90894] ERROR -- : can not download title:  Obama to Highlight Human Rights on Southeast Asian Trip (2012-11-17) link: /Voa_English_Learning/Obama_to_Highlight_Human_Rights_on_Southeast_Asian_Trip_47573.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:16:20#90894]  INFO -- : success
+E, [2012-11-22 10:16:20#90894] ERROR -- : can not download title: Virginia Museum Show Features Glass Art Pioneer Dale Chihuly  (2012-11-16) link: /VOA_Special_English/chihuly-glass-blowing-chinese-one-direction-aerosmith-47566.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:20#90894] ERROR -- : can not download title: Burma Stop Expected to Highlight Obama Asia Tour (2012-11-16) link: /VOA_Standard_English/burma-expected-to-highlight-obama-southeast-asia-tour-47557.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:20#90894] ERROR -- : can not download title: Afghan Economy Slows  (2012-11-16) link: /VOA_Standard_English/afghan-economy-slows-on-fears-of-reduced-investment-47556.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:20#90894] ERROR -- : can not download title: US 'Patriotic Millionaires': 'Tax Us More' (2012-11-16) link: /VOA_Standard_English/article-47555.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:20#90894] ERROR -- : can not download title: 1639 self-centered  (2012-11-16) link: /Voa_English_Learning/1639-self-centered__47562.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:20#90894] ERROR -- : can not download title: 1638 well-being  (2012-11-16) link: /Voa_English_Learning/1638-well-being__47561.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:20#90894] ERROR -- : can not download title:  Burma to Release 452 Prisoners Ahead of Obama's Visit (2012-11-16) link: /Voa_English_Learning/Burma_to_Release_452_Prisoners_Ahead_of_Obama's_Visit_47553.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:21#90894] ERROR -- : can not download title:  NSC Ends Emergency Meeting After Israeli Strike Kills Hamas Commander (2012-11-16) link: /Voa_English_Learning/NSC_Ends_Emergency_Meeting_After_Israeli_Strike_Kills_Hamas_Commander_47552.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:16:26#90894] ERROR -- : can not download title: Number of International Students Attending American Colleges and Universities Continues Rising  (2012-11-15) link: /VOA_Special_English/article-47550.html error: 
+I, [2012-11-22 10:17:51#90899]  INFO -- : success
+E, [2012-11-22 10:17:51#90899] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:17:51#90899] ERROR -- : can not download title: Critics of Jordan's King Bemoan Missed Opportunities (2012-11-22) link: /VOA_Standard_English/critics_of_jordans_king_bemoan_missed_opportunities-47624.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:17:51#90899] ERROR -- : can not download title: 1642 reserve  (2012-11-22) link: /Voa_English_Learning/1642_reserve__47626.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:17:51#90899] ERROR -- : can not download title: 1641 closed-door  (2012-11-22) link: /Voa_English_Learning/1641-closed-door__47625.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:17:51#90899] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:17:51#90899] ERROR -- : can not download title: 226 Body Language 4  (2012-11-22) link: /Voa_English_Learning/226-Body_Language_4_47628.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:17:51#90899] ERROR -- : can not download title:  Clinton Heads to Ramallah and Cairo As Israeli-Palestinian Fighting Continues (2012-11-22) link: /Voa_English_Learning/Clinton_Heads_to_Ramallah_and_Cairo_As_Israeli-Palestinian_Fighting_Continues_47614.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:17:51#90899] ERROR -- : can not download title:  Suicide Blast Kills 2 in Afghan Capital (2012-11-22) link: /Voa_English_Learning/Suicide_Blast_Kills_2_in_Afghan_Capital_47613.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:18:01#90899]  INFO -- : success
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title: 1890's Gold Rush   (2012-11-21) link: /VOA_Special_English/klondike-yukon-gold-47608.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - WEDNESDAY  (2012-11-21) link: /VOA_Special_English/VOA_News_Wednesday.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title:  During Meeting With Obama,Japan's Noda Welcomes US 'Pivot' (2012-11-21) link: /Voa_English_Learning/During_Meeting_With_Obama_Japan_s_Noda_Welcomes_US_Pivot_47605.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title:  Israel Pounds Gaza as Clinton Plans Mid East Diplomacy Trip (2012-11-21) link: /Voa_English_Learning/Israel_Pounds_Gaza_as_Clinton_Plans_Mid_East_Diplomacy_Trip_47604.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title: US president Obama visits Burma (2012-11-20) link: /VOA_Standard_English/US president Obama visits Burma-47592.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title: Experts Not Hopeful About Doha Climate Conference (2012-11-20) link: /VOA_Standard_English/tough_issues_low_expectations_for_doha_climate_change-47591.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title: Scandals Highlight Ethics Lapses in Military (2012-11-20) link: /VOA_Standard_English/scandals_highlight_ethics_lapses_in_military-47590.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title: Holiday Season Features Latest, Hottest Electronic Gadgets (2012-11-20) link: /VOA_Standard_English/holiday_season_features_latest_hottest_electroni_gadgets-47589.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title:  Obama Meets with Aung San Suu Kyi in Rangoon (2012-11-20) link: /Voa_English_Learning/Obama_Meets_with_Aung_San_Suu_Kyi_in_Rangoon_47597.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:02#90899] ERROR -- : can not download title:  Colombia, FARC Seek End to Conflict (2012-11-20) link: /Voa_English_Learning/Colombia_FARC_Seek_End_to_Conflict_47596.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:18:17#90899]  INFO -- : success
+E, [2012-11-22 10:18:18#90899] ERROR -- : can not download title: Maurice Sendak, 1928-2012: His Imagination Redefined Children’s Literature  (2012-11-19) link: /VOA_Special_English/transcript-47588.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:19#90899] ERROR -- : can not download title: Anti-Terror Operations Stoke Religious Tension in Kenya (2012-11-19) link: /VOA_Standard_English/anti-terror-operations-stroke-religious-tensions-in-kenya-47582.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:19#90899] ERROR -- : can not download title: 1640 self-gifting  (2012-11-19) link: /Voa_English_Learning/1640-self-gifting__47585.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:22#90899] ERROR -- : can not download title: Words and Their Stories: State Nicknames, Part 1  (2012-11-18) link: /VOA_Special_English/words-and-their-stories-state-nicknames-part--47575.html error: 
+E, [2012-11-22 10:18:22#90899] ERROR -- : can not download title: Efforts Mount to Conserve Wild Turkey Breeds (2012-11-18) link: /VOA_Standard_English/efforts-mount-to-conserve-wild-turkey-breeds-47578.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:22#90899] ERROR -- : can not download title: World Prematurity Day Aims to Lower Rates of Premature Births (2012-11-18) link: /VOA_Standard_English/world-prematuritu-day-aimes-to-lower-rates-of-premature-births-47577.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:22#90899] ERROR -- : can not download title: Historic Marijuana Vote Pits States Against US Government (2012-11-18) link: /VOA_Standard_English/marijuana-vote-us-states-47580.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:25#90899] ERROR -- : can not download title: Defense Department Investigates Top American Commander in Afghanistan  (2012-11-17) link: /VOA_Special_English/defense-department-investigates-top-american-commander-in-afghanistan-47567.html error: 
+E, [2012-11-22 10:18:25#90899] ERROR -- : can not download title: Israel-Gaza Volleys Take Civilian Toll (2012-11-17) link: /VOA_Standard_English/israel-gaza-volleys-take-civilian-toll-47571.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:25#90899] ERROR -- : can not download title: Panetta: Gaza Violence Cause for Concern (2012-11-17) link: /VOA_Standard_English/panetta-gaza-violence-47570.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:26#90899] ERROR -- : can not download title:  Petraeus Testifies on Capitol Hill about Libya Attack (2012-11-17) link: /Voa_English_Learning/Petraeus_Testifies_on_Capitol_Hill_about_Libya_Attack_47574.html error: 
+E, [2012-11-22 10:18:26#90899] ERROR -- : can not download title:  Obama to Highlight Human Rights on Southeast Asian Trip (2012-11-17) link: /Voa_English_Learning/Obama_to_Highlight_Human_Rights_on_Southeast_Asian_Trip_47573.html error: 
+E, [2012-11-22 10:18:26#90899] ERROR -- : can not download title: Ethiopia Permits Mobile Banking and Money Services  (2012-11-16) link: /VOA_Special_English/ethiopia-permits-mobile-banking-and-money-services-47568.html error: 
+E, [2012-11-22 10:18:26#90899] ERROR -- : can not download title: Virginia Museum Show Features Glass Art Pioneer Dale Chihuly  (2012-11-16) link: /VOA_Special_English/chihuly-glass-blowing-chinese-one-direction-aerosmith-47566.html error: 
+E, [2012-11-22 10:18:26#90899] ERROR -- : can not download title: Burma Stop Expected to Highlight Obama Asia Tour (2012-11-16) link: /VOA_Standard_English/burma-expected-to-highlight-obama-southeast-asia-tour-47557.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:27#90899] ERROR -- : can not download title: Afghan Economy Slows  (2012-11-16) link: /VOA_Standard_English/afghan-economy-slows-on-fears-of-reduced-investment-47556.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:27#90899] ERROR -- : can not download title: US 'Patriotic Millionaires': 'Tax Us More' (2012-11-16) link: /VOA_Standard_English/article-47555.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:27#90899] ERROR -- : can not download title: 1639 self-centered  (2012-11-16) link: /Voa_English_Learning/1639-self-centered__47562.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:27#90899] ERROR -- : can not download title: 1638 well-being  (2012-11-16) link: /Voa_English_Learning/1638-well-being__47561.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:27#90899] ERROR -- : can not download title:  Burma to Release 452 Prisoners Ahead of Obama's Visit (2012-11-16) link: /Voa_English_Learning/Burma_to_Release_452_Prisoners_Ahead_of_Obama's_Visit_47553.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:27#90899] ERROR -- : can not download title:  NSC Ends Emergency Meeting After Israeli Strike Kills Hamas Commander (2012-11-16) link: /Voa_English_Learning/NSC_Ends_Emergency_Meeting_After_Israeli_Strike_Kills_Hamas_Commander_47552.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:18:36#90899] ERROR -- : can not download title: Number of International Students Attending American Colleges and Universities Continues Rising  (2012-11-15) link: /VOA_Special_English/article-47550.html error: 
+I, [2012-11-22 10:19:22#90903]  INFO -- : success
+E, [2012-11-22 10:19:23#90903] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:19:24#90903] ERROR -- : can not download title: Critics of Jordan's King Bemoan Missed Opportunities (2012-11-22) link: /VOA_Standard_English/critics_of_jordans_king_bemoan_missed_opportunities-47624.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:19:24#90903] ERROR -- : can not download title: 1642 reserve  (2012-11-22) link: /Voa_English_Learning/1642_reserve__47626.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:19:24#90903] ERROR -- : can not download title: 1641 closed-door  (2012-11-22) link: /Voa_English_Learning/1641-closed-door__47625.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:19:24#90903] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:19:24#90903] ERROR -- : can not download title: 226 Body Language 4  (2012-11-22) link: /Voa_English_Learning/226-Body_Language_4_47628.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:19:24#90903] ERROR -- : can not download title:  Clinton Heads to Ramallah and Cairo As Israeli-Palestinian Fighting Continues (2012-11-22) link: /Voa_English_Learning/Clinton_Heads_to_Ramallah_and_Cairo_As_Israeli-Palestinian_Fighting_Continues_47614.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:19:24#90903] ERROR -- : can not download title:  Suicide Blast Kills 2 in Afghan Capital (2012-11-22) link: /Voa_English_Learning/Suicide_Blast_Kills_2_in_Afghan_Capital_47613.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:21:59#90908]  INFO -- : success
+E, [2012-11-22 10:22:00#90908] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:22:00#90908] ERROR -- : can not download title: Critics of Jordan's King Bemoan Missed Opportunities (2012-11-22) link: /VOA_Standard_English/critics_of_jordans_king_bemoan_missed_opportunities-47624.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:22:00#90908] ERROR -- : can not download title: 1642 reserve  (2012-11-22) link: /Voa_English_Learning/1642_reserve__47626.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:22:00#90908] ERROR -- : can not download title: 1641 closed-door  (2012-11-22) link: /Voa_English_Learning/1641-closed-door__47625.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:22:00#90908] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:22:00#90908] ERROR -- : can not download title: 226 Body Language 4  (2012-11-22) link: /Voa_English_Learning/226-Body_Language_4_47628.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:22:00#90908] ERROR -- : can not download title:  Clinton Heads to Ramallah and Cairo As Israeli-Palestinian Fighting Continues (2012-11-22) link: /Voa_English_Learning/Clinton_Heads_to_Ramallah_and_Cairo_As_Israeli-Palestinian_Fighting_Continues_47614.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-22 10:22:01#90908] ERROR -- : can not download title:  Suicide Blast Kills 2 in Afghan Capital (2012-11-22) link: /Voa_English_Learning/Suicide_Blast_Kills_2_in_Afghan_Capital_47613.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-22 10:23:04#90909]  INFO -- : success
+I, [2012-11-22 10:25:50#90916]  INFO -- : success
+I, [2012-11-22 10:26:01#90916]  INFO -- : success
+I, [2012-11-22 10:26:13#90916]  INFO -- : success
+I, [2012-11-22 10:26:22#90916]  INFO -- : success
+I, [2012-11-22 10:26:32#90916]  INFO -- : success
+E, [2012-11-22 10:26:33#90916] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: bad URI(is not URI?): http://down.51voa.com/201211/751 time flies 
+I, [2012-11-22 10:26:59#90916]  INFO -- : success
+I, [2012-11-22 10:26:59#90916]  INFO -- : success
+I, [2012-11-22 10:27:00#90916]  INFO -- : success
+I, [2012-11-22 10:27:00#90916]  INFO -- : success
+I, [2012-11-22 10:27:06#90916]  INFO -- : success
+I, [2012-11-22 10:27:32#90916]  INFO -- : success
+I, [2012-11-22 10:27:53#90916]  INFO -- : success
+I, [2012-11-22 10:27:53#90916]  INFO -- : success
+I, [2012-11-22 10:27:53#90916]  INFO -- : success
+I, [2012-11-22 10:28:05#90916]  INFO -- : success
+I, [2012-11-22 10:28:17#90916]  INFO -- : success
+I, [2012-11-22 10:28:30#90916]  INFO -- : success
+I, [2012-11-22 10:28:41#90916]  INFO -- : success
+I, [2012-11-22 10:28:41#90916]  INFO -- : success
+I, [2012-11-22 10:28:41#90916]  INFO -- : success
+I, [2012-11-22 10:28:47#90916]  INFO -- : success
+I, [2012-11-22 10:29:08#90916]  INFO -- : success
+I, [2012-11-22 10:29:21#90916]  INFO -- : success
+I, [2012-11-22 10:29:30#90916]  INFO -- : success
+I, [2012-11-22 10:29:37#90916]  INFO -- : success
+I, [2012-11-22 10:29:42#90916]  INFO -- : success
+I, [2012-11-22 10:29:52#90916]  INFO -- : success
+I, [2012-11-22 10:30:04#90916]  INFO -- : success
+I, [2012-11-22 10:30:23#90916]  INFO -- : success
+I, [2012-11-22 10:30:47#90916]  INFO -- : success
+I, [2012-11-22 10:30:57#90916]  INFO -- : success
+I, [2012-11-22 10:30:57#90916]  INFO -- : success
+I, [2012-11-22 10:30:57#90916]  INFO -- : success
+I, [2012-11-22 10:31:03#90916]  INFO -- : success
+I, [2012-11-22 10:31:25#90916]  INFO -- : success
+I, [2012-11-22 10:31:36#90916]  INFO -- : success
+I, [2012-11-22 10:31:46#90916]  INFO -- : success
+I, [2012-11-22 10:31:55#90916]  INFO -- : success
+I, [2012-11-22 10:32:02#90916]  INFO -- : success
+I, [2012-11-22 10:32:10#90916]  INFO -- : success
+I, [2012-11-22 10:32:10#90916]  INFO -- : success
+I, [2012-11-22 10:32:10#90916]  INFO -- : success
+E, [2012-11-22 11:48:18#91209] ERROR -- : can not download title: Thanksgiving, but US Turkey Farmers Aren't Celebrating  (2012-11-22) link: /VOA_Special_English/thanksgiving-but-us-turkey-farmers-arent-celebrating-47612.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:18#91209] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:18#91209] ERROR -- : can not download title: Critics of Jordan's King Bemoan Missed Opportunities (2012-11-22) link: /VOA_Standard_English/critics_of_jordans_king_bemoan_missed_opportunities-47624.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:18#91209] ERROR -- : can not download title: 1642 reserve  (2012-11-22) link: /Voa_English_Learning/1642_reserve__47626.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: 1641 closed-door  (2012-11-22) link: /Voa_English_Learning/1641-closed-door__47625.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: 226 Body Language 4  (2012-11-22) link: /Voa_English_Learning/226-Body_Language_4_47628.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title:  Clinton Heads to Ramallah and Cairo As Israeli-Palestinian Fighting Continues (2012-11-22) link: /Voa_English_Learning/Clinton_Heads_to_Ramallah_and_Cairo_As_Israeli-Palestinian_Fighting_Continues_47614.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title:  Suicide Blast Kills 2 in Afghan Capital (2012-11-22) link: /Voa_English_Learning/Suicide_Blast_Kills_2_in_Afghan_Capital_47613.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: OMG!美语 Thanksgiving Desserts! (2012-11-22) link: /Voa_English_Learning/Thanksgiving_Desserts_47629.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: UN Says Family Planning Pays Big for Developing Countries  (2012-11-21) link: /VOA_Special_English/pregnancy-children-women-contraceptives-developing-47607.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: 1890's Gold Rush   (2012-11-21) link: /VOA_Special_English/klondike-yukon-gold-47608.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - WEDNESDAY  (2012-11-21) link: /VOA_Special_English/VOA_News_Wednesday.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title:  During Meeting With Obama,Japan's Noda Welcomes US 'Pivot' (2012-11-21) link: /Voa_English_Learning/During_Meeting_With_Obama_Japan_s_Noda_Welcomes_US_Pivot_47605.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title:  Israel Pounds Gaza as Clinton Plans Mid East Diplomacy Trip (2012-11-21) link: /Voa_English_Learning/Israel_Pounds_Gaza_as_Clinton_Plans_Mid_East_Diplomacy_Trip_47604.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: US president Obama visits Burma (2012-11-20) link: /VOA_Standard_English/US president Obama visits Burma-47592.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: Experts Not Hopeful About Doha Climate Conference (2012-11-20) link: /VOA_Standard_English/tough_issues_low_expectations_for_doha_climate_change-47591.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: Scandals Highlight Ethics Lapses in Military (2012-11-20) link: /VOA_Standard_English/scandals_highlight_ethics_lapses_in_military-47590.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title: Holiday Season Features Latest, Hottest Electronic Gadgets (2012-11-20) link: /VOA_Standard_English/holiday_season_features_latest_hottest_electroni_gadgets-47589.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:19#91209] ERROR -- : can not download title:  Obama Meets with Aung San Suu Kyi in Rangoon (2012-11-20) link: /Voa_English_Learning/Obama_Meets_with_Aung_San_Suu_Kyi_in_Rangoon_47597.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title:  Colombia, FARC Seek End to Conflict (2012-11-20) link: /Voa_English_Learning/Colombia_FARC_Seek_End_to_Conflict_47596.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Could Waste Plastic Reduce Our Need for Oil?  (2012-11-19) link: /VOA_Special_English/could-waste-plastic-reduce-our-need-for-oil-47587.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Maurice Sendak, 1928-2012: His Imagination Redefined Children’s Literature  (2012-11-19) link: /VOA_Special_English/transcript-47588.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Anti-Terror Operations Stoke Religious Tension in Kenya (2012-11-19) link: /VOA_Standard_English/anti-terror-operations-stroke-religious-tensions-in-kenya-47582.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: 1640 self-gifting  (2012-11-19) link: /Voa_English_Learning/1640-self-gifting__47585.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Words and Their Stories: State Nicknames, Part 1  (2012-11-18) link: /VOA_Special_English/words-and-their-stories-state-nicknames-part--47575.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Efforts Mount to Conserve Wild Turkey Breeds (2012-11-18) link: /VOA_Standard_English/efforts-mount-to-conserve-wild-turkey-breeds-47578.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: World Prematurity Day Aims to Lower Rates of Premature Births (2012-11-18) link: /VOA_Standard_English/world-prematuritu-day-aimes-to-lower-rates-of-premature-births-47577.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Historic Marijuana Vote Pits States Against US Government (2012-11-18) link: /VOA_Standard_English/marijuana-vote-us-states-47580.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Defense Department Investigates Top American Commander in Afghanistan  (2012-11-17) link: /VOA_Special_English/defense-department-investigates-top-american-commander-in-afghanistan-47567.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Israel-Gaza Volleys Take Civilian Toll (2012-11-17) link: /VOA_Standard_English/israel-gaza-volleys-take-civilian-toll-47571.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Panetta: Gaza Violence Cause for Concern (2012-11-17) link: /VOA_Standard_English/panetta-gaza-violence-47570.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title:  Petraeus Testifies on Capitol Hill about Libya Attack (2012-11-17) link: /Voa_English_Learning/Petraeus_Testifies_on_Capitol_Hill_about_Libya_Attack_47574.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title:  Obama to Highlight Human Rights on Southeast Asian Trip (2012-11-17) link: /Voa_English_Learning/Obama_to_Highlight_Human_Rights_on_Southeast_Asian_Trip_47573.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:20#91209] ERROR -- : can not download title: Ethiopia Permits Mobile Banking and Money Services  (2012-11-16) link: /VOA_Special_English/ethiopia-permits-mobile-banking-and-money-services-47568.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:21#91209] ERROR -- : can not download title: Virginia Museum Show Features Glass Art Pioneer Dale Chihuly  (2012-11-16) link: /VOA_Special_English/chihuly-glass-blowing-chinese-one-direction-aerosmith-47566.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:21#91209] ERROR -- : can not download title: Burma Stop Expected to Highlight Obama Asia Tour (2012-11-16) link: /VOA_Standard_English/burma-expected-to-highlight-obama-southeast-asia-tour-47557.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:21#91209] ERROR -- : can not download title: Afghan Economy Slows  (2012-11-16) link: /VOA_Standard_English/afghan-economy-slows-on-fears-of-reduced-investment-47556.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:21#91209] ERROR -- : can not download title: US 'Patriotic Millionaires': 'Tax Us More' (2012-11-16) link: /VOA_Standard_English/article-47555.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:21#91209] ERROR -- : can not download title: 1639 self-centered  (2012-11-16) link: /Voa_English_Learning/1639-self-centered__47562.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:21#91209] ERROR -- : can not download title: 1638 well-being  (2012-11-16) link: /Voa_English_Learning/1638-well-being__47561.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:21#91209] ERROR -- : can not download title:  Burma to Release 452 Prisoners Ahead of Obama's Visit (2012-11-16) link: /Voa_English_Learning/Burma_to_Release_452_Prisoners_Ahead_of_Obama's_Visit_47553.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:21#91209] ERROR -- : can not download title:  NSC Ends Emergency Meeting After Israeli Strike Kills Hamas Commander (2012-11-16) link: /Voa_English_Learning/NSC_Ends_Emergency_Meeting_After_Israeli_Strike_Kills_Hamas_Commander_47552.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: Thanksgiving, but US Turkey Farmers Aren't Celebrating  (2012-11-22) link: /VOA_Special_English/thanksgiving-but-us-turkey-farmers-arent-celebrating-47612.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: UN Chief Warns of Perils Ahead of Climate Change Conference (2012-11-22) link: /VOA_Standard_English/un_change_warns_of_perils_ahead_of_climate_change_conference-47616.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: Critics of Jordan's King Bemoan Missed Opportunities (2012-11-22) link: /VOA_Standard_English/critics_of_jordans_king_bemoan_missed_opportunities-47624.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: 1642 reserve  (2012-11-22) link: /Voa_English_Learning/1642_reserve__47626.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: 1641 closed-door  (2012-11-22) link: /Voa_English_Learning/1641-closed-door__47625.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: 226 Body Language 4  (2012-11-22) link: /Voa_English_Learning/226-Body_Language_4_47628.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title:  Clinton Heads to Ramallah and Cairo As Israeli-Palestinian Fighting Continues (2012-11-22) link: /Voa_English_Learning/Clinton_Heads_to_Ramallah_and_Cairo_As_Israeli-Palestinian_Fighting_Continues_47614.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title:  Suicide Blast Kills 2 in Afghan Capital (2012-11-22) link: /Voa_English_Learning/Suicide_Blast_Kills_2_in_Afghan_Capital_47613.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: OMG!美语 Thanksgiving Desserts! (2012-11-22) link: /Voa_English_Learning/Thanksgiving_Desserts_47629.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: UN Says Family Planning Pays Big for Developing Countries  (2012-11-21) link: /VOA_Special_English/pregnancy-children-women-contraceptives-developing-47607.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: 1890's Gold Rush   (2012-11-21) link: /VOA_Special_English/klondike-yukon-gold-47608.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - WEDNESDAY  (2012-11-21) link: /VOA_Special_English/VOA_News_Wednesday.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title:  During Meeting With Obama,Japan's Noda Welcomes US 'Pivot' (2012-11-21) link: /Voa_English_Learning/During_Meeting_With_Obama_Japan_s_Noda_Welcomes_US_Pivot_47605.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title:  Israel Pounds Gaza as Clinton Plans Mid East Diplomacy Trip (2012-11-21) link: /Voa_English_Learning/Israel_Pounds_Gaza_as_Clinton_Plans_Mid_East_Diplomacy_Trip_47604.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: US president Obama visits Burma (2012-11-20) link: /VOA_Standard_English/US president Obama visits Burma-47592.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:26#91210] ERROR -- : can not download title: Experts Not Hopeful About Doha Climate Conference (2012-11-20) link: /VOA_Standard_English/tough_issues_low_expectations_for_doha_climate_change-47591.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Scandals Highlight Ethics Lapses in Military (2012-11-20) link: /VOA_Standard_English/scandals_highlight_ethics_lapses_in_military-47590.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Holiday Season Features Latest, Hottest Electronic Gadgets (2012-11-20) link: /VOA_Standard_English/holiday_season_features_latest_hottest_electroni_gadgets-47589.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title:  Obama Meets with Aung San Suu Kyi in Rangoon (2012-11-20) link: /Voa_English_Learning/Obama_Meets_with_Aung_San_Suu_Kyi_in_Rangoon_47597.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title:  Colombia, FARC Seek End to Conflict (2012-11-20) link: /Voa_English_Learning/Colombia_FARC_Seek_End_to_Conflict_47596.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Could Waste Plastic Reduce Our Need for Oil?  (2012-11-19) link: /VOA_Special_English/could-waste-plastic-reduce-our-need-for-oil-47587.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Maurice Sendak, 1928-2012: His Imagination Redefined Children’s Literature  (2012-11-19) link: /VOA_Special_English/transcript-47588.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Anti-Terror Operations Stoke Religious Tension in Kenya (2012-11-19) link: /VOA_Standard_English/anti-terror-operations-stroke-religious-tensions-in-kenya-47582.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: 1640 self-gifting  (2012-11-19) link: /Voa_English_Learning/1640-self-gifting__47585.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Words and Their Stories: State Nicknames, Part 1  (2012-11-18) link: /VOA_Special_English/words-and-their-stories-state-nicknames-part--47575.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Efforts Mount to Conserve Wild Turkey Breeds (2012-11-18) link: /VOA_Standard_English/efforts-mount-to-conserve-wild-turkey-breeds-47578.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: World Prematurity Day Aims to Lower Rates of Premature Births (2012-11-18) link: /VOA_Standard_English/world-prematuritu-day-aimes-to-lower-rates-of-premature-births-47577.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Historic Marijuana Vote Pits States Against US Government (2012-11-18) link: /VOA_Standard_English/marijuana-vote-us-states-47580.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Defense Department Investigates Top American Commander in Afghanistan  (2012-11-17) link: /VOA_Special_English/defense-department-investigates-top-american-commander-in-afghanistan-47567.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Israel-Gaza Volleys Take Civilian Toll (2012-11-17) link: /VOA_Standard_English/israel-gaza-volleys-take-civilian-toll-47571.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Panetta: Gaza Violence Cause for Concern (2012-11-17) link: /VOA_Standard_English/panetta-gaza-violence-47570.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title:  Petraeus Testifies on Capitol Hill about Libya Attack (2012-11-17) link: /Voa_English_Learning/Petraeus_Testifies_on_Capitol_Hill_about_Libya_Attack_47574.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title:  Obama to Highlight Human Rights on Southeast Asian Trip (2012-11-17) link: /Voa_English_Learning/Obama_to_Highlight_Human_Rights_on_Southeast_Asian_Trip_47573.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:27#91210] ERROR -- : can not download title: Ethiopia Permits Mobile Banking and Money Services  (2012-11-16) link: /VOA_Special_English/ethiopia-permits-mobile-banking-and-money-services-47568.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:28#91210] ERROR -- : can not download title: Virginia Museum Show Features Glass Art Pioneer Dale Chihuly  (2012-11-16) link: /VOA_Special_English/chihuly-glass-blowing-chinese-one-direction-aerosmith-47566.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:28#91210] ERROR -- : can not download title: Burma Stop Expected to Highlight Obama Asia Tour (2012-11-16) link: /VOA_Standard_English/burma-expected-to-highlight-obama-southeast-asia-tour-47557.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:28#91210] ERROR -- : can not download title: Afghan Economy Slows  (2012-11-16) link: /VOA_Standard_English/afghan-economy-slows-on-fears-of-reduced-investment-47556.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:28#91210] ERROR -- : can not download title: US 'Patriotic Millionaires': 'Tax Us More' (2012-11-16) link: /VOA_Standard_English/article-47555.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:28#91210] ERROR -- : can not download title: 1639 self-centered  (2012-11-16) link: /Voa_English_Learning/1639-self-centered__47562.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:28#91210] ERROR -- : can not download title: 1638 well-being  (2012-11-16) link: /Voa_English_Learning/1638-well-being__47561.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:28#91210] ERROR -- : can not download title:  Burma to Release 452 Prisoners Ahead of Obama's Visit (2012-11-16) link: /Voa_English_Learning/Burma_to_Release_452_Prisoners_Ahead_of_Obama's_Visit_47553.html error: undefined local variable or method `caption_url' for main:Object
+E, [2012-11-22 11:48:28#91210] ERROR -- : can not download title:  NSC Ends Emergency Meeting After Israeli Strike Kills Hamas Commander (2012-11-16) link: /Voa_English_Learning/NSC_Ends_Emergency_Meeting_After_Israeli_Strike_Kills_Hamas_Commander_47552.html error: undefined local variable or method `caption_url' for main:Object
+I, [2012-11-22 11:49:02#91211]  INFO -- : success
+I, [2012-11-27 09:07:56#3543]  INFO -- : success
+I, [2012-11-27 09:08:31#3543]  INFO -- : success
+I, [2012-11-27 09:08:38#3543]  INFO -- : success
+I, [2012-11-27 09:08:57#3543]  INFO -- : success
+I, [2012-11-27 09:09:05#3543]  INFO -- : success
+I, [2012-11-27 09:09:12#3543]  INFO -- : success
+I, [2012-11-27 09:09:27#3543]  INFO -- : success
+I, [2012-11-27 09:09:50#3543]  INFO -- : success
+I, [2012-11-27 09:10:10#3543]  INFO -- : success
+I, [2012-11-27 09:10:32#3543]  INFO -- : success
+I, [2012-11-27 09:10:39#3543]  INFO -- : success
+I, [2012-11-27 09:10:47#3543]  INFO -- : success
+I, [2012-11-27 09:10:55#3543]  INFO -- : success
+I, [2012-11-27 09:11:02#3543]  INFO -- : success
+I, [2012-11-27 09:11:22#3543]  INFO -- : success
+I, [2012-11-27 09:11:33#3543]  INFO -- : success
+I, [2012-11-27 09:11:33#3543]  INFO -- : success
+I, [2012-11-27 09:11:34#3543]  INFO -- : success
+I, [2012-11-27 09:11:39#3543]  INFO -- : success
+I, [2012-11-27 09:12:01#3543]  INFO -- : success
+I, [2012-11-27 09:12:13#3543]  INFO -- : success
+I, [2012-11-27 09:12:26#3543]  INFO -- : success
+I, [2012-11-27 09:12:42#3543]  INFO -- : success
+I, [2012-11-27 09:12:43#3543]  INFO -- : success
+I, [2012-11-27 09:12:43#3543]  INFO -- : success
+I, [2012-11-27 09:12:59#3543]  INFO -- : success
+I, [2012-11-27 09:14:19#3543]  INFO -- : success
+I, [2012-11-27 09:14:45#3543]  INFO -- : success
+I, [2012-11-27 09:14:57#3543]  INFO -- : success
+I, [2012-11-27 09:15:08#3543]  INFO -- : success
+I, [2012-11-27 09:15:17#3543]  INFO -- : success
+I, [2012-11-27 09:15:26#3543]  INFO -- : success
+E, [2012-11-27 09:15:26#3543] ERROR -- : can not download title: 751 time flies  (2012-11-22) link: /Voa_English_Learning/wi751.mp3_47627.html error: bad URI(is not URI?): http://down.51voa.com/201211/751 time flies 
+I, [2012-11-27 09:15:47#3543]  INFO -- : success
+I, [2012-11-27 09:15:47#3543]  INFO -- : success
+I, [2012-11-27 09:15:47#3543]  INFO -- : success
+I, [2012-11-27 09:15:47#3543]  INFO -- : success
+I, [2012-11-27 09:15:54#3543]  INFO -- : success
+I, [2012-11-27 09:16:19#3543]  INFO -- : success
+I, [2012-11-27 09:16:19#3543]  INFO -- : success
+I, [2012-11-27 09:16:19#3543]  INFO -- : success
+I, [2012-11-27 09:16:26#3543]  INFO -- : success
+I, [2012-11-29 19:16:23#1903]  INFO -- : success
+I, [2012-11-29 19:16:46#1903]  INFO -- : success
+I, [2012-11-29 19:16:52#1903]  INFO -- : success
+I, [2012-11-29 19:16:56#1903]  INFO -- : success
+I, [2012-11-29 19:17:00#1903]  INFO -- : success
+I, [2012-11-29 19:17:05#1903]  INFO -- : success
+I, [2012-11-29 19:17:37#1903]  INFO -- : success
+I, [2012-11-29 19:17:47#1903]  INFO -- : success
+I, [2012-11-29 19:17:47#1903]  INFO -- : success
+I, [2012-11-29 19:17:47#1903]  INFO -- : success
+I, [2012-11-29 19:17:55#1903]  INFO -- : success
+I, [2012-11-29 19:18:12#1903]  INFO -- : success
+I, [2012-11-29 19:18:22#1903]  INFO -- : success
+I, [2012-11-29 19:18:28#1903]  INFO -- : success
+I, [2012-11-29 19:18:32#1903]  INFO -- : success
+I, [2012-11-29 19:18:39#1903]  INFO -- : success
+I, [2012-11-29 19:18:39#1903]  INFO -- : success
+I, [2012-11-29 19:18:39#1903]  INFO -- : success
+I, [2012-11-29 19:18:43#1903]  INFO -- : success
+I, [2012-11-29 19:18:48#1903]  INFO -- : success
+I, [2012-11-29 19:18:48#1903]  INFO -- : success
+I, [2012-11-29 19:18:48#1903]  INFO -- : success
+I, [2012-11-29 19:18:53#1903]  INFO -- : success
+I, [2012-11-29 19:18:58#1903]  INFO -- : success
+I, [2012-11-29 19:19:00#1903]  INFO -- : success
+I, [2012-11-29 19:19:05#1903]  INFO -- : success
+I, [2012-11-29 19:19:16#1903]  INFO -- : success
+I, [2012-11-29 19:19:25#1903]  INFO -- : success
+I, [2012-11-29 19:19:41#1903]  INFO -- : success
+I, [2012-11-29 19:19:45#1903]  INFO -- : success
+I, [2012-11-29 19:19:53#1903]  INFO -- : success
+I, [2012-11-29 19:19:57#1903]  INFO -- : success
+I, [2012-11-29 19:20:02#1903]  INFO -- : success
+I, [2012-11-29 19:20:10#1903]  INFO -- : success
+I, [2012-11-29 19:20:17#1903]  INFO -- : success
+I, [2012-11-29 19:20:17#1903]  INFO -- : success
+I, [2012-11-29 19:20:18#1903]  INFO -- : success
+I, [2012-11-29 19:20:20#1903]  INFO -- : success
+I, [2012-11-29 19:20:26#1903]  INFO -- : success
+I, [2012-11-29 19:20:31#1903]  INFO -- : success
+I, [2012-11-29 19:20:36#1903]  INFO -- : success
+I, [2012-11-29 19:20:43#1903]  INFO -- : success
+I, [2012-11-30 13:29:20#3040]  INFO -- : success
+I, [2012-11-30 13:29:42#3040]  INFO -- : success
+I, [2012-11-30 13:30:01#3040]  INFO -- : success
+I, [2012-11-30 13:30:37#3040]  INFO -- : success
+I, [2012-11-30 13:30:54#3040]  INFO -- : success
+I, [2012-11-30 13:31:08#3040]  INFO -- : success
+I, [2012-11-30 13:31:09#3040]  INFO -- : success
+I, [2012-11-30 13:31:09#3040]  INFO -- : success
+I, [2012-11-30 13:32:28#3040]  INFO -- : success
+I, [2012-11-30 13:32:46#3040]  INFO -- : success
+I, [2012-11-30 13:32:57#3040]  INFO -- : success
+I, [2012-11-30 13:33:08#3040]  INFO -- : success
+I, [2012-11-30 13:33:33#3040]  INFO -- : success
+I, [2012-11-30 13:34:15#3040]  INFO -- : success
+I, [2012-11-30 13:34:15#3040]  INFO -- : success
+I, [2012-11-30 13:34:16#3040]  INFO -- : success
+I, [2012-11-30 13:34:33#3040]  INFO -- : success
+I, [2012-11-30 13:35:54#3040]  INFO -- : success
+I, [2012-11-30 13:36:47#3040]  INFO -- : success
+I, [2012-11-30 13:37:02#3040]  INFO -- : success
+I, [2012-11-30 13:37:29#3040]  INFO -- : success
+I, [2012-11-30 13:37:58#3040]  INFO -- : success
+I, [2012-11-30 13:38:22#3040]  INFO -- : success
+I, [2012-11-30 13:38:23#3040]  INFO -- : success
+I, [2012-11-30 13:38:23#3040]  INFO -- : success
+I, [2012-11-30 13:38:37#3040]  INFO -- : success
+I, [2012-11-30 13:39:10#3040]  INFO -- : success
+I, [2012-11-30 13:39:10#3040]  INFO -- : success
+I, [2012-11-30 13:39:10#3040]  INFO -- : success
+I, [2012-11-30 13:39:23#3040]  INFO -- : success
+I, [2012-11-30 13:39:53#3040]  INFO -- : success
+I, [2012-11-30 13:39:57#3040]  INFO -- : success
+I, [2012-11-30 13:40:02#3040]  INFO -- : success
+I, [2012-11-30 13:40:25#3040]  INFO -- : success
+I, [2012-11-30 13:40:37#3040]  INFO -- : success
+I, [2012-11-30 13:41:06#3040]  INFO -- : success
+I, [2012-11-30 13:41:14#3040]  INFO -- : success
+I, [2012-11-30 13:41:23#3040]  INFO -- : success
+I, [2012-11-30 13:41:32#3040]  INFO -- : success
+I, [2012-11-30 13:41:41#3040]  INFO -- : success
+I, [2012-11-30 13:42:13#3040]  INFO -- : success
+I, [2012-11-30 13:42:42#3040]  INFO -- : success
+I, [2012-11-30 17:23:19#4162]  INFO -- : success
+I, [2012-11-30 17:38:04#4202]  INFO -- : success
+E, [2012-11-30 17:38:04#4202] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - FRIDAY  (2012-11-30) link: /VOA_Special_English/VOA_News_Friday.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:04#4202] ERROR -- : can not download title: Soweto Shows Uneven Development After 18 Years of Democracy (2012-11-30) link: /VOA_Standard_English/soweto_shows_uneven_development_after__years_of_democracy-47712.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:04#4202] ERROR -- : can not download title: Rivals Battle for Tunisia's Future as Anniversary Approaches (2012-11-30) link: /VOA_Standard_English/rivals-battle-for-tunisia-future-as-anniversary-approaches-47711.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:04#4202] ERROR -- : can not download title: As Rebels Exit Goma, New Concerns Arise Over Insecurity (2012-11-30) link: /VOA_Standard_English/as-rebels-exit-goma-new-concerns-over-security-arise-47709.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title: Slow Progress on Curbing Deforestation Expected at Climate Conference (2012-11-30) link: /VOA_Standard_English/slow-progresss-on-curbing-deforestation-expected-at-climate-conference-47716.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title:  Aung San Suu Kyi to Visit Mine Protesters (2012-11-30) link: /Voa_English_Learning/Aung_San_Suu_Kyi_to_Visit_Mine_Protesters_47718.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title:  Egypt President To Address Nation (2012-11-30) link: /Voa_English_Learning/Egypt_President_To_Address_Nation_47717.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title: American History: America's Break with Britain Divides Families and Friends  (2012-11-29) link: /VOA_Special_English/revolution-john-adams-slaves-tories-saratoga-patriots-47704.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title: Violence Forces Burmese Muslims Out of Kyaukphyu (2012-11-29) link: /VOA_Standard_English/violence-forces-burmese-muslims-out-of-kyaukphyu-47697.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title: More Afghan Opium May Mean More Pakistani Addicts (2012-11-29) link: /VOA_Standard_English/more_afghan_opium_may_mean_more_pakistani_addicts-47696.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title: Chinese Tourism to US Growing (2012-11-29) link: /VOA_Standard_English/chinese-tourism-to-us-growing-47700.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title: 752 strike while the iron is hot (2012-11-29) link: /Voa_English_Learning/752_strike_while_the_iron_is_hot_47705.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title: 227 A Product Recall 1 (2012-11-29) link: /Voa_English_Learning/227-A_Product_Recall_1_47706.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title:  Explosions in Damascus Kill 29 (2012-11-29) link: /Voa_English_Learning/Explosions_in_Damascus_Kill_29_47703.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:38:05#4202] ERROR -- : can not download title:  Police Arrest Bangladesh Factory Officials (2012-11-29) link: /Voa_English_Learning/Police_Arrest_Bangladesh_Factory_Officials_47702.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 17:38:11#4202]  INFO -- : success
+E, [2012-11-30 17:38:12#4202] ERROR -- : can not download title: Older Populations Are a Fact of Life for Many Countries  (2012-11-28) link: /VOA_Special_English/older-populations-are-a-fact-of-life-for-many-countries-47681.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:12#4202] ERROR -- : can not download title: Demand for Science Reporting Growing in Africa  (2012-11-28) link: /VOA_Standard_English/demand-for-science-reporting-growing-in-africa-47684.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:12#4202] ERROR -- : can not download title: Easing Burma Sanctions Draws Interest of US Business (2012-11-28) link: /VOA_Standard_English/easing-burma-sanctions-draws-interest-of-us-business-47685.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:12#4202] ERROR -- : can not download title: Gaza Residents Hope Israeli Blockade Will End After Cease-fire (2012-11-28) link: /VOA_Standard_English/gaza-residents-hope-israeli-blockade-will-end-after-cease-fire-47690.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:12#4202] ERROR -- : can not download title: Muslim Women Host Fundraiser for Sandy Victims (2012-11-28) link: /VOA_Standard_English/muslim-women-host-fundraiser-for-sandy-victims-47689.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:12#4202] ERROR -- : can not download title: Palestinians Blame Israel for Economic Slump  (2012-11-28) link: /VOA_Standard_English/palestinians-blame-israel-for-economic-slump-47688.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:12#4202] ERROR -- : can not download title:  Satellite Images Suggest N. Korea Preparing for Missile Test (2012-11-28) link: /Voa_English_Learning/Satellite_Images_Suggest_N__Korea_Preparing_for_Missile_Test_47692.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:38:12#4202] ERROR -- : can not download title:  Egypt's Morsi Pledges to Restrict Absolute Powers to 'Sovereign' Matters (2012-11-28) link: /Voa_English_Learning/Egypt_s_Morsi_Pledges_to_Restrict_Absolute_Powers_to__Sovereign__Matters_47691.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 17:38:19#4202]  INFO -- : success
+E, [2012-11-30 17:38:19#4202] ERROR -- : can not download title: White House: Consumer Spending Will Decline Unless Congress Averts Fiscal Cliff (2012-11-27) link: /VOA_Standard_English/white-house-consumer-spending-will-decline-unless-congress-averts-fiscal-cliff-47678.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:19#4202] ERROR -- : can not download title:  UN Climate Talks Focus on Kyoto, New Global Pact (2012-11-27) link: /Voa_English_Learning/UN_Climate_Talks_Focus_on_Kyoto_47680.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:38:19#4202] ERROR -- : can not download title:  China Lands Fighter Jet on Aircraft Carrier for First Time (2012-11-27) link: /Voa_English_Learning/China_Lands_Fighter_Jet_on_Aircraft_Carrier_for_First_Time_47679.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 17:38:26#4202]  INFO -- : success
+E, [2012-11-30 17:38:26#4202] ERROR -- : can not download title:  The State of Vermont: Fertile Farmland, Green Mountains and Revolutionary History  (2012-11-26) link: /VOA_Special_English/vermont-maple-syrup-ethan-allen-green-mountain-47663.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:26#4202] ERROR -- : can not download title: 1645 preterm  (2012-11-26) link: /Voa_English_Learning/1645_preterm__47665.html error: undefined method `save_content' for main:Object
+I, [2012-11-30 17:38:49#4202]  INFO -- : success
+E, [2012-11-30 17:38:49#4202] ERROR -- : can not download title: Ghana Prepares for December General Elections  (2012-11-25) link: /VOA_Standard_English/ghana-prepares-for-december-general-elections-47660.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:51#4202] ERROR -- : can not download title: Ghana Politicians Using Social Media to Reach Out to Voters  (2012-11-25) link: /VOA_Standard_English/ghana-politicians-using-social-media-47659.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:51#4202] ERROR -- : can not download title: Ghana Voters Weigh Options Ahead of National Polls  (2012-11-25) link: /VOA_Standard_English/ghana-voters-weigh-options-ahead-of-national-polls-47658.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:51#4202] ERROR -- : can not download title: Home TB Treatment Is Helping Patients in Swaziland (2012-11-25) link: /VOA_Standard_English/tb-swaliland-health-47657.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:51#4202] ERROR -- : can not download title: 1644 headhunter  (2012-11-25) link: /Voa_English_Learning/1644-headhunter__47655.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:38:51#4202] ERROR -- : can not download title: 1643 repercussion  (2012-11-25) link: /Voa_English_Learning/1643-repercussion__47654.html error: undefined method `save_content' for main:Object
+I, [2012-11-30 17:39:11#4202]  INFO -- : success
+E, [2012-11-30 17:39:11#4202] ERROR -- : can not download title: Ghana Political Parties Vie for Power in December Polls (2012-11-24) link: /VOA_Standard_English/ghana-political-parties-vie-for-power-47647.html error: undefined method `save_content' for main:Object
+E, [2012-11-30 17:39:11#4202] ERROR -- : can not download title: Some Discontented Texans Talk Secession (2012-11-24) link: /VOA_Standard_English/secession-texas-47648.html error: undefined method `save_content' for main:Object
+I, [2012-11-30 17:39:25#4211]  INFO -- : success
+I, [2012-11-30 17:41:41#4213]  INFO -- : success
+I, [2012-11-30 17:49:10#4260]  INFO -- : success
+I, [2012-11-30 17:55:39#4316]  INFO -- : success
+E, [2012-11-30 17:55:39#4316] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - FRIDAY  (2012-11-30) link: /VOA_Special_English/VOA_News_Friday.html error: undefined method `close' for 346:Fixnum
+E, [2012-11-30 17:55:39#4316] ERROR -- : can not download title: Soweto Shows Uneven Development After 18 Years of Democracy (2012-11-30) link: /VOA_Standard_English/soweto_shows_uneven_development_after__years_of_democracy-47712.html error: undefined method `close' for 2720:Fixnum
+E, [2012-11-30 17:55:39#4316] ERROR -- : can not download title: Rivals Battle for Tunisia's Future as Anniversary Approaches (2012-11-30) link: /VOA_Standard_English/rivals-battle-for-tunisia-future-as-anniversary-approaches-47711.html error: undefined method `close' for 2880:Fixnum
+E, [2012-11-30 17:55:39#4316] ERROR -- : can not download title: As Rebels Exit Goma, New Concerns Arise Over Insecurity (2012-11-30) link: /VOA_Standard_English/as-rebels-exit-goma-new-concerns-over-security-arise-47709.html error: undefined method `close' for 1954:Fixnum
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title: Slow Progress on Curbing Deforestation Expected at Climate Conference (2012-11-30) link: /VOA_Standard_English/slow-progresss-on-curbing-deforestation-expected-at-climate-conference-47716.html error: undefined method `close' for 2250:Fixnum
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title:  Aung San Suu Kyi to Visit Mine Protesters (2012-11-30) link: /Voa_English_Learning/Aung_San_Suu_Kyi_to_Visit_Mine_Protesters_47718.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title:  Egypt President To Address Nation (2012-11-30) link: /Voa_English_Learning/Egypt_President_To_Address_Nation_47717.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title: American History: America's Break with Britain Divides Families and Friends  (2012-11-29) link: /VOA_Special_English/revolution-john-adams-slaves-tories-saratoga-patriots-47704.html error: undefined method `close' for 7486:Fixnum
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title: Violence Forces Burmese Muslims Out of Kyaukphyu (2012-11-29) link: /VOA_Standard_English/violence-forces-burmese-muslims-out-of-kyaukphyu-47697.html error: undefined method `close' for 2219:Fixnum
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title: More Afghan Opium May Mean More Pakistani Addicts (2012-11-29) link: /VOA_Standard_English/more_afghan_opium_may_mean_more_pakistani_addicts-47696.html error: undefined method `close' for 2171:Fixnum
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title: Chinese Tourism to US Growing (2012-11-29) link: /VOA_Standard_English/chinese-tourism-to-us-growing-47700.html error: undefined method `close' for 2721:Fixnum
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title: 752 strike while the iron is hot (2012-11-29) link: /Voa_English_Learning/752_strike_while_the_iron_is_hot_47705.html error: undefined method `close' for 2150:Fixnum
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title: 227 A Product Recall 1 (2012-11-29) link: /Voa_English_Learning/227-A_Product_Recall_1_47706.html error: undefined method `close' for 2966:Fixnum
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title:  Explosions in Damascus Kill 29 (2012-11-29) link: /Voa_English_Learning/Explosions_in_Damascus_Kill_29_47703.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:55:40#4316] ERROR -- : can not download title:  Police Arrest Bangladesh Factory Officials (2012-11-29) link: /Voa_English_Learning/Police_Arrest_Bangladesh_Factory_Officials_47702.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 17:55:47#4316]  INFO -- : success
+E, [2012-11-30 17:55:48#4316] ERROR -- : can not download title: Older Populations Are a Fact of Life for Many Countries  (2012-11-28) link: /VOA_Special_English/older-populations-are-a-fact-of-life-for-many-countries-47681.html error: undefined method `close' for 7712:Fixnum
+E, [2012-11-30 17:55:48#4316] ERROR -- : can not download title: Demand for Science Reporting Growing in Africa  (2012-11-28) link: /VOA_Standard_English/demand-for-science-reporting-growing-in-africa-47684.html error: undefined method `close' for 4185:Fixnum
+E, [2012-11-30 17:55:48#4316] ERROR -- : can not download title: Easing Burma Sanctions Draws Interest of US Business (2012-11-28) link: /VOA_Standard_English/easing-burma-sanctions-draws-interest-of-us-business-47685.html error: undefined method `close' for 2384:Fixnum
+E, [2012-11-30 17:55:48#4316] ERROR -- : can not download title: Gaza Residents Hope Israeli Blockade Will End After Cease-fire (2012-11-28) link: /VOA_Standard_English/gaza-residents-hope-israeli-blockade-will-end-after-cease-fire-47690.html error: undefined method `close' for 2220:Fixnum
+E, [2012-11-30 17:55:48#4316] ERROR -- : can not download title: Muslim Women Host Fundraiser for Sandy Victims (2012-11-28) link: /VOA_Standard_English/muslim-women-host-fundraiser-for-sandy-victims-47689.html error: undefined method `close' for 2353:Fixnum
+E, [2012-11-30 17:55:48#4316] ERROR -- : can not download title: Palestinians Blame Israel for Economic Slump  (2012-11-28) link: /VOA_Standard_English/palestinians-blame-israel-for-economic-slump-47688.html error: undefined method `close' for 3162:Fixnum
+E, [2012-11-30 17:55:48#4316] ERROR -- : can not download title:  Satellite Images Suggest N. Korea Preparing for Missile Test (2012-11-28) link: /Voa_English_Learning/Satellite_Images_Suggest_N__Korea_Preparing_for_Missile_Test_47692.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:55:48#4316] ERROR -- : can not download title:  Egypt's Morsi Pledges to Restrict Absolute Powers to 'Sovereign' Matters (2012-11-28) link: /Voa_English_Learning/Egypt_s_Morsi_Pledges_to_Restrict_Absolute_Powers_to__Sovereign__Matters_47691.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 17:55:55#4316]  INFO -- : success
+E, [2012-11-30 17:55:55#4316] ERROR -- : can not download title: White House: Consumer Spending Will Decline Unless Congress Averts Fiscal Cliff (2012-11-27) link: /VOA_Standard_English/white-house-consumer-spending-will-decline-unless-congress-averts-fiscal-cliff-47678.html error: undefined method `close' for 2185:Fixnum
+E, [2012-11-30 17:55:55#4316] ERROR -- : can not download title:  UN Climate Talks Focus on Kyoto, New Global Pact (2012-11-27) link: /Voa_English_Learning/UN_Climate_Talks_Focus_on_Kyoto_47680.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 17:55:55#4316] ERROR -- : can not download title:  China Lands Fighter Jet on Aircraft Carrier for First Time (2012-11-27) link: /Voa_English_Learning/China_Lands_Fighter_Jet_on_Aircraft_Carrier_for_First_Time_47679.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 17:56:03#4316]  INFO -- : success
+E, [2012-11-30 17:56:03#4316] ERROR -- : can not download title:  The State of Vermont: Fertile Farmland, Green Mountains and Revolutionary History  (2012-11-26) link: /VOA_Special_English/vermont-maple-syrup-ethan-allen-green-mountain-47663.html error: undefined method `close' for 6642:Fixnum
+E, [2012-11-30 17:56:03#4316] ERROR -- : can not download title: 1645 preterm  (2012-11-26) link: /Voa_English_Learning/1645_preterm__47665.html error: undefined method `close' for 683:Fixnum
+I, [2012-11-30 17:56:22#4316]  INFO -- : success
+E, [2012-11-30 17:56:22#4316] ERROR -- : can not download title: Ghana Prepares for December General Elections  (2012-11-25) link: /VOA_Standard_English/ghana-prepares-for-december-general-elections-47660.html error: undefined method `close' for 2934:Fixnum
+E, [2012-11-30 17:56:22#4316] ERROR -- : can not download title: Ghana Politicians Using Social Media to Reach Out to Voters  (2012-11-25) link: /VOA_Standard_English/ghana-politicians-using-social-media-47659.html error: undefined method `close' for 2764:Fixnum
+E, [2012-11-30 17:56:22#4316] ERROR -- : can not download title: Ghana Voters Weigh Options Ahead of National Polls  (2012-11-25) link: /VOA_Standard_English/ghana-voters-weigh-options-ahead-of-national-polls-47658.html error: undefined method `close' for 2895:Fixnum
+E, [2012-11-30 17:56:22#4316] ERROR -- : can not download title: Home TB Treatment Is Helping Patients in Swaziland (2012-11-25) link: /VOA_Standard_English/tb-swaliland-health-47657.html error: undefined method `close' for 1848:Fixnum
+E, [2012-11-30 17:56:22#4316] ERROR -- : can not download title: 1644 headhunter  (2012-11-25) link: /Voa_English_Learning/1644-headhunter__47655.html error: undefined method `close' for 779:Fixnum
+E, [2012-11-30 17:56:22#4316] ERROR -- : can not download title: 1643 repercussion  (2012-11-25) link: /Voa_English_Learning/1643-repercussion__47654.html error: undefined method `close' for 701:Fixnum
+E, [2012-11-30 17:56:27#4316] ERROR -- : can not download title: Morsi's New Powers Bring Protests in Egypt  (2012-11-24) link: /VOA_Special_English/morsis-new-powers-bring-protests-in-egypt-47652.html error: 
+E, [2012-11-30 17:56:27#4316] ERROR -- : can not download title: Ghana Political Parties Vie for Power in December Polls (2012-11-24) link: /VOA_Standard_English/ghana-political-parties-vie-for-power-47647.html error: undefined method `close' for 2498:Fixnum
+E, [2012-11-30 17:56:28#4316] ERROR -- : can not download title: Some Discontented Texans Talk Secession (2012-11-24) link: /VOA_Standard_English/secession-texas-47648.html error: undefined method `close' for 2441:Fixnum
+I, [2012-11-30 17:56:44#4323]  INFO -- : success
+E, [2012-11-30 17:57:04#4323] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - FRIDAY  (2012-11-30) link: /VOA_Special_English/VOA_News_Friday.html error: undefined method `close' for 346:Fixnum
+I, [2012-11-30 17:58:30#4335]  INFO -- : success
+I, [2012-11-30 17:59:16#4339]  INFO -- : success
+I, [2012-11-30 18:00:13#4339]  INFO -- : success
+I, [2012-11-30 18:01:05#4347]  INFO -- : success
+I, [2012-11-30 18:02:31#4352]  INFO -- : success
+I, [2012-11-30 18:03:13#4352]  INFO -- : success
+I, [2012-11-30 18:09:48#4365]  INFO -- : success
+I, [2012-11-30 18:10:12#4365]  INFO -- : success
+I, [2012-11-30 18:10:28#4365]  INFO -- : success
+I, [2012-11-30 18:10:45#4365]  INFO -- : success
+I, [2012-11-30 18:10:58#4381]  INFO -- : success
+I, [2012-11-30 18:11:18#4381]  INFO -- : success
+I, [2012-11-30 18:11:32#4381]  INFO -- : success
+I, [2012-11-30 18:11:46#4381]  INFO -- : success
+I, [2012-11-30 18:11:55#4381]  INFO -- : success
+I, [2012-11-30 18:12:05#4381]  INFO -- : success
+E, [2012-11-30 18:12:05#4381] ERROR -- : can not download title:  Aung San Suu Kyi to Visit Mine Protesters (2012-11-30) link: /Voa_English_Learning/Aung_San_Suu_Kyi_to_Visit_Mine_Protesters_47718.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 18:12:05#4381] ERROR -- : can not download title:  Egypt President To Address Nation (2012-11-30) link: /Voa_English_Learning/Egypt_President_To_Address_Nation_47717.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 18:13:07#4381]  INFO -- : success
+I, [2012-11-30 18:13:18#4381]  INFO -- : success
+I, [2012-11-30 18:13:30#4381]  INFO -- : success
+E, [2012-11-30 18:13:31#4381] ERROR -- : can not download title: Chinese Tourism to US Growing (2012-11-29) link: /VOA_Standard_English/chinese-tourism-to-us-growing-47700.html error: 
+E, [2012-11-30 18:13:32#4381] ERROR -- : can not download title: 752 strike while the iron is hot (2012-11-29) link: /Voa_English_Learning/752_strike_while_the_iron_is_hot_47705.html error: 
+E, [2012-11-30 18:13:43#4381] ERROR -- : can not download title: 227 A Product Recall 1 (2012-11-29) link: /Voa_English_Learning/227-A_Product_Recall_1_47706.html error: 
+E, [2012-11-30 18:13:43#4381] ERROR -- : can not download title:  Explosions in Damascus Kill 29 (2012-11-29) link: /Voa_English_Learning/Explosions_in_Damascus_Kill_29_47703.html error: 
+E, [2012-11-30 18:13:43#4381] ERROR -- : can not download title:  Police Arrest Bangladesh Factory Officials (2012-11-29) link: /Voa_English_Learning/Police_Arrest_Bangladesh_Factory_Officials_47702.html error: 
+E, [2012-11-30 18:13:44#4381] ERROR -- : can not download title: Seeking HIV Tests for All in US Age 15-65  (2012-11-28) link: /VOA_Special_English/seeking-hiv-tests-for-all-in-us-age---47694.html error: 
+E, [2012-11-30 18:13:44#4381] ERROR -- : can not download title: Older Populations Are a Fact of Life for Many Countries  (2012-11-28) link: /VOA_Special_English/older-populations-are-a-fact-of-life-for-many-countries-47681.html error: 
+E, [2012-11-30 18:14:22#4381] ERROR -- : can not download title: Demand for Science Reporting Growing in Africa  (2012-11-28) link: /VOA_Standard_English/demand-for-science-reporting-growing-in-africa-47684.html error: 
+E, [2012-11-30 18:14:23#4381] ERROR -- : can not download title: Easing Burma Sanctions Draws Interest of US Business (2012-11-28) link: /VOA_Standard_English/easing-burma-sanctions-draws-interest-of-us-business-47685.html error: 
+I, [2012-11-30 18:14:34#4381]  INFO -- : success
+E, [2012-11-30 18:17:23#4381] ERROR -- : can not download title: Muslim Women Host Fundraiser for Sandy Victims (2012-11-28) link: /VOA_Standard_English/muslim-women-host-fundraiser-for-sandy-victims-47689.html error: Timeout::Error
+I, [2012-11-30 18:17:39#4381]  INFO -- : success
+E, [2012-11-30 18:17:39#4381] ERROR -- : can not download title:  Satellite Images Suggest N. Korea Preparing for Missile Test (2012-11-28) link: /Voa_English_Learning/Satellite_Images_Suggest_N__Korea_Preparing_for_Missile_Test_47692.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 18:17:39#4381] ERROR -- : can not download title:  Egypt's Morsi Pledges to Restrict Absolute Powers to 'Sovereign' Matters (2012-11-28) link: /Voa_English_Learning/Egypt_s_Morsi_Pledges_to_Restrict_Absolute_Powers_to__Sovereign__Matters_47691.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 18:17:47#4381]  INFO -- : success
+I, [2012-11-30 18:17:57#4381]  INFO -- : success
+E, [2012-11-30 18:17:58#4381] ERROR -- : can not download title:  UN Climate Talks Focus on Kyoto, New Global Pact (2012-11-27) link: /Voa_English_Learning/UN_Climate_Talks_Focus_on_Kyoto_47680.html error: undefined method `gsub' for nil:NilClass
+E, [2012-11-30 18:17:58#4381] ERROR -- : can not download title:  China Lands Fighter Jet on Aircraft Carrier for First Time (2012-11-27) link: /Voa_English_Learning/China_Lands_Fighter_Jet_on_Aircraft_Carrier_for_First_Time_47679.html error: undefined method `gsub' for nil:NilClass
+I, [2012-11-30 18:18:04#4381]  INFO -- : success
+I, [2012-11-30 18:18:27#4381]  INFO -- : success
+I, [2012-11-30 18:18:36#4381]  INFO -- : success
+I, [2012-11-30 18:18:54#4381]  INFO -- : success
+I, [2012-11-30 18:19:22#4381]  INFO -- : success
+I, [2012-11-30 18:19:56#4381]  INFO -- : success
+I, [2012-11-30 18:20:25#4381]  INFO -- : success
+I, [2012-11-30 18:20:33#4381]  INFO -- : success
+I, [2012-11-30 18:20:48#4381]  INFO -- : success
+I, [2012-11-30 18:20:51#4381]  INFO -- : success
+I, [2012-11-30 18:20:55#4381]  INFO -- : success
+I, [2012-11-30 18:21:03#4381]  INFO -- : success
+I, [2012-11-30 18:21:11#4381]  INFO -- : success
+I, [2012-12-03 09:33:17#4776]  INFO -- : success
+I, [2012-12-03 09:33:51#4776]  INFO -- : success
+I, [2012-12-03 09:34:09#4776]  INFO -- : success
+I, [2012-12-03 09:34:16#4776]  INFO -- : success
+I, [2012-12-03 09:34:33#4776]  INFO -- : success
+I, [2012-12-03 09:34:41#4776]  INFO -- : success
+I, [2012-12-03 09:34:49#4776]  INFO -- : success
+I, [2012-12-03 09:37:01#4776]  INFO -- : success
+I, [2012-12-03 09:37:10#4776]  INFO -- : success
+I, [2012-12-03 09:37:22#4776]  INFO -- : success
+I, [2012-12-03 09:37:35#4776]  INFO -- : success
+I, [2012-12-03 09:37:46#4776]  INFO -- : success
+I, [2012-12-03 09:38:04#4776]  INFO -- : success
+I, [2012-12-03 09:38:20#4776]  INFO -- : success
+I, [2012-12-03 09:38:20#4776]  INFO -- : success
+I, [2012-12-03 09:38:20#4776]  INFO -- : success
+I, [2012-12-03 09:38:37#4776]  INFO -- : success
+I, [2012-12-03 09:39:01#4776]  INFO -- : success
+I, [2012-12-03 09:39:21#4776]  INFO -- : success
+I, [2012-12-03 09:39:35#4776]  INFO -- : success
+I, [2012-12-03 09:39:44#4776]  INFO -- : success
+I, [2012-12-03 09:39:54#4776]  INFO -- : success
+I, [2012-12-03 09:39:54#4776]  INFO -- : success
+I, [2012-12-03 09:39:54#4776]  INFO -- : success
+I, [2012-12-03 09:40:01#4776]  INFO -- : success
+I, [2012-12-03 09:41:00#4776]  INFO -- : success
+I, [2012-12-03 09:41:18#4776]  INFO -- : success
+I, [2012-12-03 09:41:29#4776]  INFO -- : success
+I, [2012-12-03 09:41:39#4776]  INFO -- : success
+I, [2012-12-03 09:42:29#4776]  INFO -- : success
+I, [2012-12-03 09:43:05#4776]  INFO -- : success
+I, [2012-12-03 09:43:07#4776]  INFO -- : success
+I, [2012-12-03 09:43:07#4776]  INFO -- : success
+I, [2012-12-03 09:43:16#4776]  INFO -- : success
+I, [2012-12-03 09:43:41#4776]  INFO -- : success
+I, [2012-12-03 09:44:21#4776]  INFO -- : success
+I, [2012-12-03 09:44:54#4776]  INFO -- : success
+I, [2012-12-03 09:45:16#4776]  INFO -- : success
+I, [2012-12-03 09:45:48#4776]  INFO -- : success
+I, [2012-12-03 09:46:24#4776]  INFO -- : success
+I, [2012-12-03 09:46:26#4776]  INFO -- : success
+I, [2012-12-03 09:46:26#4776]  INFO -- : success
+I, [2012-12-03 09:46:37#4776]  INFO -- : success
+I, [2012-12-06 09:26:02#11419]  INFO -- : success
+I, [2012-12-06 09:26:29#11419]  INFO -- : success
+I, [2012-12-06 09:27:03#11419]  INFO -- : success
+I, [2012-12-06 09:27:13#11419]  INFO -- : success
+I, [2012-12-06 09:27:14#11419]  INFO -- : success
+I, [2012-12-06 09:27:14#11419]  INFO -- : success
+I, [2012-12-06 09:27:36#11419]  INFO -- : success
+I, [2012-12-06 09:27:45#11419]  INFO -- : success
+I, [2012-12-06 09:28:26#11419]  INFO -- : success
+I, [2012-12-06 09:28:26#11419]  INFO -- : success
+E, [2012-12-06 09:28:26#11419] ERROR -- : can not download title: To Protect Rhinos, Anti-Poaching Business Grows in South Africa  (2012-12-4) link: /VOA_Special_English/rhino-horns-poaching-game-limpopo-conservation-47753.html error: 404 Not Found
+I, [2012-12-06 09:28:46#11419]  INFO -- : success
+I, [2012-12-06 09:28:57#11419]  INFO -- : success
+I, [2012-12-06 09:28:57#11419]  INFO -- : success
+I, [2012-12-06 09:28:57#11419]  INFO -- : success
+I, [2012-12-06 09:29:05#11419]  INFO -- : success
+I, [2012-12-06 09:29:29#11419]  INFO -- : success
+I, [2012-12-06 09:29:50#11419]  INFO -- : success
+I, [2012-12-06 09:29:58#11419]  INFO -- : success
+I, [2012-12-06 09:30:16#11419]  INFO -- : success
+I, [2012-12-06 09:30:26#11419]  INFO -- : success
+I, [2012-12-06 09:30:35#11419]  INFO -- : success
+I, [2012-12-06 09:32:21#11419]  INFO -- : success
+I, [2012-12-06 09:32:41#11419]  INFO -- : success
+I, [2012-12-06 09:32:55#11419]  INFO -- : success
+I, [2012-12-06 09:33:10#11419]  INFO -- : success
+I, [2012-12-06 09:33:21#11419]  INFO -- : success
+I, [2012-12-06 09:33:29#11419]  INFO -- : success
+I, [2012-12-06 09:33:36#11419]  INFO -- : success
+I, [2012-12-06 09:33:37#11419]  INFO -- : success
+I, [2012-12-06 09:33:37#11419]  INFO -- : success
+I, [2012-12-06 09:33:44#11419]  INFO -- : success
+I, [2012-12-06 09:34:08#11419]  INFO -- : success
+I, [2012-12-06 09:34:23#11419]  INFO -- : success
+I, [2012-12-06 09:34:37#11419]  INFO -- : success
+I, [2012-12-06 09:34:45#11419]  INFO -- : success
+I, [2012-12-06 09:34:56#11419]  INFO -- : success
+I, [2012-12-06 09:34:57#11419]  INFO -- : success
+I, [2012-12-06 09:34:57#11419]  INFO -- : success
+I, [2012-12-06 09:35:03#11419]  INFO -- : success
+I, [2012-12-06 09:36:01#11419]  INFO -- : success
+I, [2012-12-06 09:36:13#11419]  INFO -- : success
+I, [2012-12-06 15:35:33#12170]  INFO -- : success
+E, [2012-12-06 15:35:53#12170] ERROR -- : can not download title: SPECIAL ENGLISH NEWS - THURSDAY  (2012-12-6) link: /VOA_Special_English/voa_news_Thursday.html error: undefined local variable or method `conPtent' for main:Object
+E, [2012-12-06 15:36:02#12170] ERROR -- : can not download title: Developing Countries Want Rich Nations to Pay for Climate Change (2012-12-6) link: /VOA_Standard_English/developing-countries-want-poor-nations-to-pay-for-climate-change-47764.html error: undefined local variable or method `conPtent' for main:Object
+I, [2012-12-06 15:36:35#12171]  INFO -- : success
+I, [2012-12-06 15:37:05#12171]  INFO -- : success
+I, [2012-12-06 15:37:45#12171]  INFO -- : success
+I, [2012-12-06 15:39:38#12171]  INFO -- : success
+I, [2012-12-06 15:40:32#12171]  INFO -- : success
+I, [2012-12-06 15:41:17#12171]  INFO -- : success
+E, [2012-12-06 15:41:25#12171] ERROR -- : can not download title:  Death Toll from Philippine Typhoon Passes 200 (2012-12-6) link: /Voa_English_Learning/Death_Toll_from_Philippine_Typhoon_Passes_200_47768.html error: undefined method `gsub' for nil:NilClass
+E, [2012-12-06 15:41:52#12171] ERROR -- : can not download title:  Egyptian Protesters Camp out at Presidential Palace (2012-12-6) link: /Voa_English_Learning/Egyptian_Protesters_Camp_out_at_Presidential_Palace_47767.html error: undefined method `gsub' for nil:NilClass
+I, [2012-12-06 15:56:43#12171]  INFO -- : success
+I, [2012-12-06 15:57:05#12171]  INFO -- : success
+I, [2012-12-06 15:57:23#12203]  INFO -- : success
+I, [2012-12-06 15:57:52#12203]  INFO -- : success
+I, [2012-12-06 15:58:46#12203]  INFO -- : success
+I, [2012-12-06 15:58:57#12203]  INFO -- : success
+I, [2012-12-06 15:59:22#12203]  INFO -- : success
+I, [2012-12-06 15:59:45#12203]  INFO -- : success
+I, [2012-12-06 15:59:45#12203]  INFO -- : title:  Death Toll from Philippine Typhoon Passes 200 (2012-12-6) link: /Voa_English_Learning/Death_Toll_from_Philippine_Typhoon_Passes_200_47768.html not mp3 file 
+I, [2012-12-06 15:59:45#12203]  INFO -- : title:  Egyptian Protesters Camp out at Presidential Palace (2012-12-6) link: /Voa_English_Learning/Egyptian_Protesters_Camp_out_at_Presidential_Palace_47767.html not mp3 file 
+I, [2012-12-06 16:00:14#12203]  INFO -- : success
+I, [2012-12-06 16:00:24#12203]  INFO -- : success
+I, [2012-12-06 16:01:11#12203]  INFO -- : success
+I, [2012-12-06 16:01:11#12203]  INFO -- : title:  Iran Says It Captured US Drone (2012-12-5) link: /Voa_English_Learning/Iran_Says_It_Captured_US_Drone_47759.html not mp3 file 
+E, [2012-12-06 16:01:12#12203] ERROR -- : can not download title: To Protect Rhinos, Anti-Poaching Business Grows in South Africa  (2012-12-4) link: /VOA_Special_English/rhino-horns-poaching-game-limpopo-conservation-47753.html error: 404 Not Found
+I, [2012-12-06 16:01:36#12203]  INFO -- : success
+I, [2012-12-06 16:01:53#12203]  INFO -- : success
+I, [2012-12-06 16:01:53#12203]  INFO -- : title:  Clinton Pushing US Nuclear Sale (2012-12-4) link: /Voa_English_Learning/Clinton_Pushing_US_Nuclear_Sale_47750.html not mp3 file 
+I, [2012-12-06 16:01:53#12203]  INFO -- : title:  Egyptian Judges to Boycott Referendum on Islamist-Backed Constitution (2012-12-4) link: /Voa_English_Learning/Egyptian_Judges_to_Boycott_Referendum_on_Islamist_Backed_Constitution_47749.html not mp3 file 
+I, [2012-12-06 16:02:02#12203]  INFO -- : success
+I, [2012-12-06 16:02:15#12203]  INFO -- : success
+I, [2012-12-06 16:02:30#12203]  INFO -- : success
+I, [2012-12-06 16:02:33#12203]  INFO -- : success
+I, [2012-12-06 16:02:42#12203]  INFO -- : success
+I, [2012-12-06 16:02:47#12203]  INFO -- : success
+I, [2012-12-06 16:02:54#12203]  INFO -- : success
+I, [2012-12-06 16:03:32#12203]  INFO -- : success
+I, [2012-12-06 16:03:35#12203]  INFO -- : success
+I, [2012-12-06 16:03:41#12203]  INFO -- : success
+I, [2012-12-06 16:03:47#12203]  INFO -- : success
+I, [2012-12-06 16:03:51#12203]  INFO -- : success
+I, [2012-12-06 16:03:55#12203]  INFO -- : success
+I, [2012-12-06 16:04:01#12203]  INFO -- : success
+I, [2012-12-06 16:04:02#12203]  INFO -- : title:  Egyptian Panel Approves Draft Constitution (2012-12-1) link: /Voa_English_Learning/Egyptian_Panel_Approves_Draft_Constitution_47723.html not mp3 file 
+I, [2012-12-06 16:04:02#12203]  INFO -- : title:  Obama Campaigns for Plan to Avoid Fiscal Cliff (2012-12-1) link: /Voa_English_Learning/Obama_Campaigns_for_Plan_to_Avoid_Fiscal_Cliff_47722.html not mp3 file 
+I, [2012-12-06 16:04:11#12203]  INFO -- : success
+I, [2012-12-06 16:04:22#12203]  INFO -- : success
+I, [2012-12-06 16:04:28#12203]  INFO -- : success
+I, [2012-12-06 16:04:35#12203]  INFO -- : success
+I, [2012-12-06 16:04:40#12203]  INFO -- : success
+I, [2012-12-06 16:04:44#12203]  INFO -- : success
+I, [2012-12-06 16:04:44#12203]  INFO -- : title:  Aung San Suu Kyi to Visit Mine Protesters (2012-11-30) link: /Voa_English_Learning/Aung_San_Suu_Kyi_to_Visit_Mine_Protesters_47718.html not mp3 file 
+I, [2012-12-06 16:04:44#12203]  INFO -- : title:  Egypt President To Address Nation (2012-11-30) link: /Voa_English_Learning/Egypt_President_To_Address_Nation_47717.html not mp3 file 
+I, [2012-12-06 16:04:47#12203]  INFO -- : success
