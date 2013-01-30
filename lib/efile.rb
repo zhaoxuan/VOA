@@ -6,30 +6,39 @@ class Efile
     # @download_url = 'http://down.51voa.com/201210/se-ed-mali-education-web-24oct12.mp3'
   end
 
+  def format_time(string)
+    minute = /\d\d/.match(string)[0]
+    second = /\d\d\.\d\d/.match(string)[0]
+    return minute.to_f * 60 + second.to_f
+  end
+
   def effective_line(line)
     regexp = /\[\d\d:\d\d.\d\d\]/.match(line)
     return false if regexp.nil?
 
     time    = /\d\d:\d\d.\d\d/.match(regexp[0])[0]
     content = regexp.post_match
-    words   = count_words(content)
+    return time, content
   end
 
   def count_words(string)
     words = string.split(/\b/)
 
-    words_number  = 0
-    spaces_number = 0
+    words_number        = 0
+    spaces_number       = 0
+    punctuations_number = 0
 
     words.each do |word|
-      p word
       if word == ' '
-        spaces_number = spaces_number + 1
+        spaces_number += 1
+      elsif [',', '.', ', ', '。'].include?(word)
+        punctuations_number += 1
       else
-        words_number = words_number + 1
+        words_number += 1
       end
     end
-    return words_number
+
+    return words_number, spaces_number, punctuations_number, string.size
   end
 
   def count_chars(string)
@@ -37,12 +46,21 @@ class Efile
   end
 
   def analyze_lrc(file)
-    lrc_file = 
-
-    # File.foreach(file) do |line|
-    #   # p line
-    # end
-    []
+    filename = file[file.rindex('/')+1, file.length-1]
+    File.foreach(file) do |line|
+      next unless effective_line(line)
+      time, content = effective_line(line)
+      words_number, spaces_number, punctuations_number, chars = count_words(content)
+      Lrc.create(
+        :file_name => filename,
+        :time => format_time(time),
+        :content => content,
+        :words => words_number,
+        :chars => chars,
+        :spaces => spaces_number,
+        :punctuations => punctuations_number
+      )
+    end
   end
 
   def clean_content(content)
