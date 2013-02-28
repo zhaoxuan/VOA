@@ -13,12 +13,16 @@ class Efile
   end
 
   def effective_line(line)
-    regexp = /\[\d\d:\d\d.\d\d\]/.match(line)
+    
+    ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
+    valid_string = ic.iconv(line.force_encoding("UTF-8"))  
+    regexp = /\[\d\d:\d\d.\d\d\]/.match(valid_string)
     return false if regexp.nil?
 
     time    = /\d\d:\d\d.\d\d/.match(regexp[0])[0]
     content = regexp.post_match
     return time, content
+    
   end
 
   def count_words(string)
@@ -46,6 +50,7 @@ class Efile
   end
 
   def analyze_lrc(file)
+
     filename = file[file.rindex('/')+1, file.length-1]
     File.foreach(file) do |line|
       next unless effective_line(line)
@@ -61,6 +66,7 @@ class Efile
         :punctuations => punctuations_number
       )
     end
+    return true
   end
 
   def clean_content(content)

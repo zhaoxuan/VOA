@@ -16,8 +16,7 @@ describe Efile, "efile" do
     path  = File.expand_path('../../download_file/english_lrc/se-ag-cattle-feed-efficiency-WEB-13nov12.lrc', __FILE__)
     File.exist?(path).should eq true
 
-    # efile.analyze_lrc(path).class.should eq Array
-    # a = FactoryGirl.create(:lrc) 
+    efile.analyze_lrc(path).class.should eq true
   end
 
   it "count words in the string" do

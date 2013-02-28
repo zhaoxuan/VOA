@@ -5,9 +5,28 @@ require 'debugger'
 require 'open-uri'
 require 'mechanize'
 require File.expand_path("../lib/ehtml", __FILE__)
+require File.expand_path("../models/lrc", __FILE__)
 
 def analyze
-  
+  lrc_dir = File.expand_path("../download_file/english_lrc", __FILE__)
+  if File.directory?(lrc_dir)
+    efile = Efile.new
+    
+    Dir.foreach(lrc_dir) do |file|
+      next if file[0] == "." or file[file.rindex('.')+1, file.length-1] == 'mp3'
+      
+      begin
+        p file
+        efile.analyze_lrc(lrc_dir + '/' + file)
+        $log1.info("analyze lrc file success ")
+      rescue Exception => e
+        $log1.error(e)
+        $log1.error(file)
+      end
+    end
+   
+
+  end
 end
 
 def download_voa
@@ -49,6 +68,8 @@ def download_voa
   end
 end
 
+$log1 = Logger.new("log/development.log")
+
 case ARGV.first
 when '-d'
   download_voa
@@ -58,6 +79,9 @@ when '-a'
   destination_dir = File.expand_path("../download_file/clean_content", __FILE__)
   
   Efile.new.modify_each_file(source_dir, destination_dir)
+when 'analyze'
+  analyze
+
 end
 
 
