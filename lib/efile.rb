@@ -101,15 +101,16 @@ class Efile
     Dir.mkdir(destination_dir) unless File.exist?(destination_dir)
   end
   
-  def download(url, path = 'download_file/')
-    filename = @download_url[@download_url.rindex('/')+1, @download_url.length-1]
+  # def download(url, path = 'download_file/')
+  #   filename = @download_url[@download_url.rindex('/')+1, @download_url.length-1]debugger
+  #   path = ROOT_PATH + '/' + path
 
-    download_file = File.new("./#{path}" + filename, 'w+')
-    download_file.binmode
-    download_file << open(@download_url).read
-    download_file.flush
-    download_file.close
-  end
+  #   download_file = File.new("./#{path}" + filename, 'w+')
+  #   download_file.binmode
+  #   download_file << open(@download_url).read
+  #   download_file.flush
+  #   download_file.close
+  # end
 
   def self.get_filename(url)
     url[url.rindex('/')+1, url.length-1]
@@ -119,10 +120,11 @@ class Efile
     return false if url.nil?
 
     filename = self.get_filename(url)
+    path = ROOT_PATH + '/' + path
 
-    download_file = File.new("./#{path}" + filename, 'w+')
+    download_file = File.new("#{path}" + filename, 'w+')
     download_file.binmode
-    download_file << open(url).read
+    download_file << open(url, 'rb').read
     download_file.flush
     download_file.close
     return true
