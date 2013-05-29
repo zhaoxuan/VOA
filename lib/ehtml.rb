@@ -15,12 +15,12 @@ class Ehtml
   def get_article_array(page)
     result = []
 
-    page.search("//div[@id='rightContainer']/span[@id='list']/ul").children.each do |v|
-      # v.children.first.content #分类
-      # v.children.last.content #标题
-      # v.children.last.attribute('href').content #连接
+    page.search("#list//li").each do |v|
+      #分类
+      #标题
+      #连接
       result << [
-                  v.children.first.content,
+                  v.children[0].content,
                   v.children.last.content,
                   v.children.last.attribute('href').content
                 ]
