@@ -4,8 +4,11 @@ require 'logger'
 require 'debugger'
 require 'open-uri'
 require 'mechanize'
+require 'mp3info'
 require File.expand_path("../lib/ehtml", __FILE__)
 require File.expand_path("../models/lrc", __FILE__)
+
+ROOT_PATH = File.expand_path('../', __FILE__)
 
 def analyze
   lrc_dir = File.expand_path("../download_file/english_lrc", __FILE__)
@@ -42,6 +45,7 @@ def download_voa
     link  = donload_info[2]
 
     begin
+
       page     = agent.get_page(link)
       caption  = agent.get_caption_url(page)
       download = agent.get_download_url(page)
@@ -54,7 +58,6 @@ def download_voa
       if caption.nil?
         content = agent.get_content(page)
         agent.save_content(content, URI.encode(download, '[]'), 'download_file/content')
-
         agent.download(URI.encode(download, '[]'), "download_file/english/") unless download.nil?
       else
         agent.download(URI.encode(caption, '[]'), "download_file/english_lrc/") unless caption.nil?
