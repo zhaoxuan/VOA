@@ -102,7 +102,7 @@ class Efile
   end
   
   # def download(url, path = 'download_file/')
-  #   filename = @download_url[@download_url.rindex('/')+1, @download_url.length-1]debugger
+  #   filename = @download_url[@download_url.rindex('/')+1, @download_url.length-1]
   #   path = ROOT_PATH + '/' + path
 
   #   download_file = File.new("./#{path}" + filename, 'w+')
@@ -124,7 +124,7 @@ class Efile
 
     download_file = File.new("#{path}" + filename, 'w+')
     download_file.binmode
-    download_file << open(url, 'rb').read
+    download_file << open(url, 'User-Agent' => 'ruby').read
     download_file.flush
     download_file.close
     return true

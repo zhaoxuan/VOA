@@ -1,10 +1,12 @@
 #encoding: utf-8
 require 'rubygems'
+require 'bundler/setup'
 require 'logger'
 require 'debugger'
 require 'open-uri'
 require 'mechanize'
 require 'mp3info'
+Bundler.require
 require File.expand_path("../lib/ehtml", __FILE__)
 require File.expand_path("../models/lrc", __FILE__)
 
