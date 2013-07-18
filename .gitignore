@@ -1,5 +1,6 @@
 download_file/*
 log/*
+*.log
 .tags_sorted_by_file
 .tags
 dump.rdb
