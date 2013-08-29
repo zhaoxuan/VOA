@@ -121,8 +121,8 @@ class Efile
 
     filename = self.get_filename(url)
     path = ROOT_PATH + '/' + path
-
-    self.wget({'directory' => path, 'url' => url})
+    debugger
+    self.wget({'directory' => path, 'url' => url, 'out_file' => path+filename})
     # download_file = File.new("#{path}" + filename, 'w+')
     # download_file.binmode
     # download_file << open(url, 'User-Agent' => 'ruby').read
@@ -134,8 +134,10 @@ class Efile
 
   def self.wget(opt = {})
     directory = opt['directory']
-    url = opt['url']
-    `wget -P #{directory} #{url}`
+    url       = opt['url']
+    out_file  = opt['out_file']
+
+    `wget -O '#{out_file}' '#{url}'`
     if $?.to_i != 0
       raise 'wget download file error'
     end
