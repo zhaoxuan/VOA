@@ -122,13 +122,23 @@ class Efile
     filename = self.get_filename(url)
     path = ROOT_PATH + '/' + path
 
-    download_file = File.new("#{path}" + filename, 'w+')
-    download_file.binmode
-    download_file << open(url, 'User-Agent' => 'ruby').read
-    download_file.flush
-    download_file.close
+    self.wget({'directory' => path, 'url' => url})
+    # download_file = File.new("#{path}" + filename, 'w+')
+    # download_file.binmode
+    # download_file << open(url, 'User-Agent' => 'ruby').read
+    # download_file.flush
+    # download_file.close
     return true
     
+  end
+
+  def self.wget(opt = {})
+    directory = opt['directory']
+    url = opt['url']
+    `wget -P #{directory} #{url}`
+    if $?.to_i != 0
+      raise 'wget download file error'
+    end
   end
 
   def self.download_content(content, title, path)
