@@ -121,7 +121,7 @@ class Efile
 
     filename = self.get_filename(url)
     path = ROOT_PATH + '/' + path
-    debugger
+
     self.wget({'directory' => path, 'url' => url, 'out_file' => path+filename})
     # download_file = File.new("#{path}" + filename, 'w+')
     # download_file.binmode
