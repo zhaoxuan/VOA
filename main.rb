@@ -6,9 +6,11 @@ require 'debugger'
 require 'open-uri'
 require 'mechanize'
 require 'mp3info'
+require 'mail'
 Bundler.require
 require File.expand_path("../lib/ehtml", __FILE__)
 require File.expand_path("../models/lrc", __FILE__)
+require File.expand_path("../lib/emailer", __FILE__)
 
 ROOT_PATH = File.expand_path('../', __FILE__)
 
@@ -68,6 +70,7 @@ def download_voa
 
       logger.info("success")
     rescue Exception => e
+      send_mail({'suject' => "download voa error", 'body' => "#{e.to_s}"})
       logger.error("can not download title: #{title} link: #{link} error: #{e}")
     end
   end
@@ -114,7 +117,7 @@ end
 
 $log1 = Logger.new("log/development.log")
 
-
+include Mailer
 
 case ARGV.first
 when '-h'
@@ -124,6 +127,7 @@ when '-h'
 when '-d'
   # download home page data
   download_voa
+  send_mail({'subject' => 'VOA download mail', 'body' => "Today #{Time.now} task has completed"})
 
 when '-a'
   # analyse html, when it is without lrc file
