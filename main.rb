@@ -138,6 +138,8 @@ when '-a'
 when 'analyze'
   analyze
 
+when '-m'
+  send_mail({'suject' => "mailer from pi", 'body' => "This is pi."})
 end
 
 
