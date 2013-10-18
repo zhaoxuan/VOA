@@ -70,7 +70,7 @@ def download_voa
 
       logger.info("success")
     rescue Exception => e
-      send_mail({'suject' => "download voa error", 'body' => "#{e.to_s}"})
+      send_mail({'suject' => "download voa error", 'body' => "#{e.backtrace.join("\n")}"})
       logger.error("can not download title: #{title} link: #{link} error: #{e}")
     end
   end
