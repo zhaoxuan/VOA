@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 class Efile
-  
+
   def initialize
     # @download_url = 'http://down.51voa.com/201210/se-ed-mali-education-web-24oct12.mp3'
   end
@@ -13,16 +13,15 @@ class Efile
   end
 
   def effective_line(line)
-    
+
     ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
-    valid_string = ic.iconv(line.force_encoding("UTF-8"))  
+    valid_string = ic.iconv(line.force_encoding("UTF-8"))
     regexp = /\[\d\d:\d\d.\d\d\]/.match(valid_string)
     return false if regexp.nil?
 
     time    = /\d\d:\d\d.\d\d/.match(regexp[0])[0]
     content = regexp.post_match
     return time, content
-    
   end
 
   def count_words(string)
@@ -58,7 +57,7 @@ class Efile
       words_number, spaces_number, punctuations_number, chars = count_words(content)
       Lrc.create(
         :file_name => filename,
-        :time => format_time(time),
+        :time => format_time(time).round(2),
         :content => content,
         :words => words_number,
         :chars => chars,
@@ -70,7 +69,7 @@ class Efile
   end
 
   def clean_content(content)
-    regexp =  /Player\(.*\;/.match(content)
+    regexp = /Player\(.*\;/.match(content)
     {
       'name' => regexp[0],
       'body' => regexp.post_match
@@ -83,15 +82,16 @@ class Efile
 
       Dir.foreach(source_dir) do |file|
         next if file == "." || file == ".." || file == ".DS_Store"
+
         path     = File.join(source_dir, file)
         new_path = File.join(destination_dir, file)
-        content  = File.read(path)
+        content  = File.open(path, :encoding => "utf-8").read
         new_file = File.new(new_path, 'w+')
 
         clean_content(content).each do |k, v|
           new_file.puts(v)
         end
-        
+
         new_file.close
       end
     end
@@ -122,13 +122,33 @@ class Efile
     filename = self.get_filename(url)
     path = ROOT_PATH + '/' + path
 
-    download_file = File.new("#{path}" + filename, 'w+')
-    download_file.binmode
-    download_file << open(url, 'User-Agent' => 'ruby').read
-    download_file.flush
-    download_file.close
+    self.wget({'directory' => path, 'url' => url, 'out_file' => path+filename})
+    # download_file = File.new("#{path}" + filename, 'w+')
+    # download_file.binmode
+    # download_file << open(url, 'User-Agent' => 'ruby').read
+    # download_file.flush
+    # download_file.close
     return true
     
+  end
+
+  def self.wget(opt = {})
+    directory = opt['directory']
+    url       = opt['url']
+    out_file  = opt['out_file']
+
+    times = 3
+    begin
+      times = times - 1
+      `wget -O '#{out_file}' '#{url}'`
+      raise 'wget download file error' if $?.to_i != 0
+    rescue Exception => e
+      if times == 0
+        raise e
+      else
+        retry
+      end
+    end
   end
 
   def self.download_content(content, title, path)

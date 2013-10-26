@@ -61,6 +61,24 @@ class Ehtml
     Efile.download_content(content, title, path)
   end
 
+  def hist_article_array(page)
+    result = []
+
+    page.search("//div[@id='list']/ul/li").each do |v|
+      #分类
+      #标题
+      #连接
+      detail =  v.children[1]
+      result << [
+        'hitory download english',
+        detail.children[0].content,
+        detail.attribute('href').value
+      ]
+    end
+
+    return result
+  end
+
  
 
 end

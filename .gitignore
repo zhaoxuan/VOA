@@ -4,3 +4,5 @@ log/*
 .tags_sorted_by_file
 .tags
 dump.rdb
+.DS_Store
+Gemfile.lock

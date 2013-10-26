@@ -5,7 +5,8 @@ class CreateLrcTable < ActiveRecord::Migration
   def self.up
     create_table :lrcs do |t|
       t.string :file_name
-      t.string :time
+      t.float :time
+      t.float :duration
       t.text :content
       t.integer :words
       t.integer :chars
