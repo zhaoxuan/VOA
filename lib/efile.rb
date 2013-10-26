@@ -71,11 +71,9 @@ class Efile
 
   def clean_content(content)
     regexp = /Player\(.*\;/.match(content)
-    time_content = /.*,20\d\d/.match(regexp.post_match)
     {
       'name' => regexp[0],
-      'time' => time_content[0],
-      'body' => time_content.post_match
+      'body' => regexp.post_match
     }
   end
 
