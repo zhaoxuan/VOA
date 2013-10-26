@@ -85,7 +85,7 @@ class Efile
 
       Dir.foreach(source_dir) do |file|
         next if file == "." || file == ".." || file == ".DS_Store"
-        debugger
+
         path     = File.join(source_dir, file)
         new_path = File.join(destination_dir, file)
         content  = File.open(path, :encoding => "utf-8").read
