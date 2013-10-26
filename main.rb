@@ -131,8 +131,8 @@ when '-d'
 
 when '-a'
   # analyse html, when it is without lrc file
-  source_dir      = File.expand_path("../download_file/content", __FILE__)
-  destination_dir = File.expand_path("../download_file/clean_content", __FILE__)
+  source_dir      = "#{ROOT_PATH}/download_file/content"
+  destination_dir = "#{ROOT_PATH}/download_file/clean_content"
 
   Efile.new.modify_each_file(source_dir, destination_dir)
 when 'analyze'
