@@ -74,7 +74,7 @@ class Efile
     time_content = /.*,20\d\d/.match(regexp.post_match)
     {
       'name' => regexp[0],
-      'time' => time_content[0]
+      'time' => time_content[0],
       'body' => time_content.post_match
     }
   end
@@ -85,6 +85,7 @@ class Efile
 
       Dir.foreach(source_dir) do |file|
         next if file == "." || file == ".." || file == ".DS_Store"
+        debugger
         path     = File.join(source_dir, file)
         new_path = File.join(destination_dir, file)
         content  = File.open(path, :encoding => "utf-8").read
