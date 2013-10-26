@@ -15,6 +15,7 @@ require File.expand_path("../lib/emailer", __FILE__)
 ROOT_PATH = File.expand_path('../', __FILE__)
 
 def analyze
+  log = Logger.new("log/analyze.log")
   lrc_dir = File.expand_path("../download_file/english_lrc", __FILE__)
   if File.directory?(lrc_dir)
     efile = Efile.new
@@ -23,12 +24,11 @@ def analyze
       next if file[0] == "." or file[file.rindex('.')+1, file.length-1] == 'mp3'
 
       begin
-        p file
         efile.analyze_lrc(lrc_dir + '/' + file)
-        $log1.info("analyze lrc file success ")
+        log.info("analyze lrc file success ")
       rescue Exception => e
-        $log1.error(e)
-        $log1.error(file)
+        log.error(e)
+        log.error(file)
       end
     end
 
@@ -115,7 +115,7 @@ def hist_downlaod(download_num = 1)
   end
 end
 
-$log1 = Logger.new("log/development.log")
+
 
 include Mailer
 
