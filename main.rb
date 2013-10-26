@@ -18,10 +18,10 @@ def analyze
   lrc_dir = File.expand_path("../download_file/english_lrc", __FILE__)
   if File.directory?(lrc_dir)
     efile = Efile.new
-    
+
     Dir.foreach(lrc_dir) do |file|
       next if file[0] == "." or file[file.rindex('.')+1, file.length-1] == 'mp3'
-      
+
       begin
         p file
         efile.analyze_lrc(lrc_dir + '/' + file)
@@ -31,7 +31,7 @@ def analyze
         $log1.error(file)
       end
     end
-   
+
 
   end
 end
@@ -133,7 +133,7 @@ when '-a'
   # analyse html, when it is without lrc file
   source_dir      = File.expand_path("../download_file/content", __FILE__)
   destination_dir = File.expand_path("../download_file/clean_content", __FILE__)
-  
+
   Efile.new.modify_each_file(source_dir, destination_dir)
 when 'analyze'
   analyze
@@ -143,4 +143,4 @@ when '-m'
 end
 
 
-  
+
