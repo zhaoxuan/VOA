@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 class Efile
-  
+
   def initialize
     # @download_url = 'http://down.51voa.com/201210/se-ed-mali-education-web-24oct12.mp3'
   end
@@ -13,16 +13,15 @@ class Efile
   end
 
   def effective_line(line)
-    
+
     ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
-    valid_string = ic.iconv(line.force_encoding("UTF-8"))  
+    valid_string = ic.iconv(line.force_encoding("UTF-8"))
     regexp = /\[\d\d:\d\d.\d\d\]/.match(valid_string)
     return false if regexp.nil?
 
     time    = /\d\d:\d\d.\d\d/.match(regexp[0])[0]
     content = regexp.post_match
     return time, content
-    
   end
 
   def count_words(string)
@@ -58,7 +57,7 @@ class Efile
       words_number, spaces_number, punctuations_number, chars = count_words(content)
       Lrc.create(
         :file_name => filename,
-        :time => format_time(time),
+        :time => format_time(time).round(2),
         :content => content,
         :words => words_number,
         :chars => chars,
