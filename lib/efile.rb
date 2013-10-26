@@ -137,9 +137,17 @@ class Efile
     url       = opt['url']
     out_file  = opt['out_file']
 
-    `wget -O '#{out_file}' '#{url}'`
-    if $?.to_i != 0
-      raise 'wget download file error'
+    times = 3
+    begin
+      times = times - 1
+      `wget -O '#{out_file}' '#{url}'`
+      raise 'wget download file error' if $?.to_i != 0
+    rescue Exception => e
+      if times == 0
+        raise e
+      else
+        retry
+      end
     end
   end
 
