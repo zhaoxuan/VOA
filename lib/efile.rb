@@ -70,10 +70,12 @@ class Efile
   end
 
   def clean_content(content)
-    regexp =  /Player\(.*\;/.match(content)
+    regexp = /Player\(.*\;/.match(content)
+    time_content = /.*,20\d\d/.match(regexp.post_match)
     {
       'name' => regexp[0],
-      'body' => regexp.post_match
+      'time' => time_content[0]
+      'body' => time_content.post_match
     }
   end
 
@@ -85,13 +87,13 @@ class Efile
         next if file == "." || file == ".." || file == ".DS_Store"
         path     = File.join(source_dir, file)
         new_path = File.join(destination_dir, file)
-        content  = File.read(path)
+        content  = File.open(path, :encoding => "utf-8").read
         new_file = File.new(new_path, 'w+')
 
         clean_content(content).each do |k, v|
           new_file.puts(v)
         end
-        
+
         new_file.close
       end
     end
