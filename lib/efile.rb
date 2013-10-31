@@ -50,20 +50,24 @@ class Efile
 
   def analyze_lrc(file)
 
+    last_time = '00:00.00'
     filename = file[file.rindex('/')+1, file.length-1]
     File.foreach(file) do |line|
       next unless effective_line(line)
       time, content = effective_line(line)
+
       words_number, spaces_number, punctuations_number, chars = count_words(content)
       Lrc.create(
         :file_name => filename,
         :time => format_time(time).round(2),
+        :duration => (format_time(time) - format_time(last_time)),
         :content => content,
         :words => words_number,
         :chars => chars,
         :spaces => spaces_number,
         :punctuations => punctuations_number
       )
+      last_time = time
     end
     return true
   end
