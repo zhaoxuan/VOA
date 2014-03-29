@@ -158,7 +158,7 @@ class Efile
   def self.download_content(content, title, path)
     filename  = self.get_filename(title).gsub(/.mp3/, '.txt')
     file_path = File.expand_path("../../download_file/content/#{filename}", __FILE__)
-    download_file = File.new(file_path, 'w+')
+    download_file = File.new(file_path, 'w+:UTF-8')
     download_file.write(content)
     download_file.close
   end
