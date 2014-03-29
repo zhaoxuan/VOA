@@ -28,3 +28,5 @@
 
 mission:
 分析 lrc 文件的内容
+
+clean_content 还是有 bug 很多内容不一样

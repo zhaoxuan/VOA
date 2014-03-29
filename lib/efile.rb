@@ -73,10 +73,14 @@ class Efile
   end
 
   def clean_content(content)
-    regexp = /Player\(.*\;/.match(content)
+    # regexp = /Player\(.*\;/.match(content)
+    # {
+    #   'name' => regexp[0],
+    #   'body' => regexp.post_match
+    # }
     {
-      'name' => regexp[0],
-      'body' => regexp.post_match
+      'name' => '',
+      'body' => content
     }
   end
 
