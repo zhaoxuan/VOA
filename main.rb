@@ -13,6 +13,9 @@ require File.expand_path("../models/lrc", __FILE__)
 require File.expand_path("../lib/emailer", __FILE__)
 
 ROOT_PATH = File.expand_path('../', __FILE__)
+# To set ruby encoding to utf-8
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
 
 def analyze
   log = Logger.new("log/analyze.log")
