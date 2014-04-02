@@ -27,6 +27,7 @@
 保存 content 的时候，中文会出现乱码，要解决掉
 
 mission:
-分析 lrc 文件的内容
+分析 lrc 文件的内容:
+分别计算 word expect, char variance
 
 clean_content 还是有 bug 很多内容不一样
