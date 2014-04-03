@@ -137,7 +137,7 @@ class Efile
     # download_file.flush
     # download_file.close
     return true
-    
+
   end
 
   def self.wget(opt = {})
@@ -150,6 +150,8 @@ class Efile
       times = times - 1
       `wget -O '#{out_file}' '#{url}'`
       raise 'wget download file error' if $?.to_i != 0
+
+      gbk_to_utf8(out_file) if url[-3, 3] == 'lrc'
     rescue Exception => e
       if times == 0
         raise e
@@ -157,6 +159,12 @@ class Efile
         retry
       end
     end
+  end
+
+  def self.gbk_to_utf8(input)
+    f = File.new(input + '.utf8', 'w+')
+    f.write File.open(input).read.encode("utf-8", "gbk")
+    f.close
   end
 
   def self.download_content(content, title, path)
