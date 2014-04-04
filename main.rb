@@ -23,7 +23,8 @@ def analyze
       next if file[0] == "." or file[file.rindex('.')+1, file.length-1] == 'mp3'
 
       begin
-        efile.analyze_lrc(lrc_dir + '/' + file)
+        # efile.analyze_lrc(lrc_dir + '/' + file)
+        Lrc.new.analyze_file(lrc_dir + '/' + file)
         log.info("analyze lrc file success ")
       rescue Exception => e
         log.error(e)
