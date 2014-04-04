@@ -1,18 +1,13 @@
 #encoding: utf-8
 require 'rubygems'
 require 'bundler/setup'
-require 'logger'
-require 'debugger'
 require 'open-uri'
-require 'mechanize'
 require 'mp3info'
-require 'mail'
-Bundler.require
-require File.expand_path("../lib/ehtml", __FILE__)
-require File.expand_path("../models/lrc", __FILE__)
-require File.expand_path("../lib/emailer", __FILE__)
 
+Bundler.require
 ROOT_PATH = File.expand_path('../', __FILE__)
+Dir.glob(ROOT_PATH + '/lib/*.rb') {|lib_file| require lib_file}
+
 # To set ruby encoding to utf-8
 Encoding.default_external = Encoding::UTF_8
 Encoding.default_internal = Encoding::UTF_8
