@@ -7,6 +7,7 @@ require 'mp3info'
 Bundler.require
 ROOT_PATH = File.expand_path('../', __FILE__)
 Dir.glob(ROOT_PATH + '/lib/*.rb') {|lib_file| require lib_file}
+Dir.glob(ROOT_PATH + '/models/*.rb') {|lib_file| require lib_file}
 
 # To set ruby encoding to utf-8
 Encoding.default_external = Encoding::UTF_8
