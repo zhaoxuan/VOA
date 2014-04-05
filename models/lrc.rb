@@ -24,19 +24,12 @@ class Lrc < ActiveRecord::Base
                 :spaces => spaces_number,
                 :punctuations => punctuations_number
               }
-
-      # Lrc.create(
-      #   :file_name => filename,
-      #   :time => format_time(time).round(2),
-      #   :duration => (format_time(time) - format_time(last_time)),
-      #   :content => content,
-      #   :words => words_number,
-      #   :chars => chars,
-      #   :spaces => spaces_number,
-      #   :punctuations => punctuations_number
-      # )
-      # last_time = time
     end
+
+    if lines.first['duration'] == 0
+      lines.first['duration'] = lines[1]['time'] - lines[0]['time']
+    end
+
     lines.each do |lrc|
       Lrc.create(lrc)
     end

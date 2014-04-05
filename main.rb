@@ -3,6 +3,7 @@ require 'rubygems'
 require 'bundler/setup'
 require 'open-uri'
 require 'mp3info'
+require 'pathname'
 
 Bundler.require
 ROOT_PATH = File.expand_path('../', __FILE__)
@@ -60,11 +61,12 @@ def download_voa
       end
 
       if caption.nil?
+        next
         content = agent.get_content(page)
         agent.save_content(content, URI.encode(download, '[]'), 'download_file/content')
         agent.download(URI.encode(download, '[]'), "download_file/english/") unless download.nil?
       else
-        agent.download(URI.encode(caption, '[]'), "download_file/english_lrc/") unless caption.nil?
+        agent.download(URI.encode(caption, '[]'), "download_file/origin_lrcs/") unless caption.nil?
         agent.download(URI.encode(download, '[]'), "download_file/english_lrc/") unless download.nil?
       end
 

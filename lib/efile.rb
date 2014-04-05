@@ -6,70 +6,8 @@ class Efile
     # @download_url = 'http://down.51voa.com/201210/se-ed-mali-education-web-24oct12.mp3'
   end
 
-  def format_time(string)
-    minute = /\d\d/.match(string)[0]
-    second = /\d\d\.\d\d/.match(string)[0]
-    return minute.to_f * 60 + second.to_f
-  end
-
-  def effective_line(line)
-
-    ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
-    valid_string = ic.iconv(line.force_encoding("UTF-8"))
-    regexp = /\[\d\d:\d\d.\d\d\]/.match(valid_string)
-    return false if regexp.nil?
-
-    time    = /\d\d:\d\d.\d\d/.match(regexp[0])[0]
-    content = regexp.post_match
-    return time, content
-  end
-
-  def count_words(string)
-    words = string.split(/\b/)
-
-    words_number        = 0
-    spaces_number       = 0
-    punctuations_number = 0
-
-    words.each do |word|
-      if word == ' '
-        spaces_number += 1
-      elsif [',', '.', ', ', '。'].include?(word)
-        punctuations_number += 1
-      else
-        words_number += 1
-      end
-    end
-
-    return words_number, spaces_number, punctuations_number, string.size
-  end
-
   def count_chars(string)
     chars = string.split(/./)
-  end
-
-  def analyze_lrc(file)
-
-    last_time = '00:00.00'
-    filename = file[file.rindex('/')+1, file.length-1]
-    File.foreach(file) do |line|
-      next unless effective_line(line)
-      time, content = effective_line(line)
-
-      words_number, spaces_number, punctuations_number, chars = count_words(content)
-      Lrc.create(
-        :file_name => filename,
-        :time => format_time(time).round(2),
-        :duration => (format_time(time) - format_time(last_time)),
-        :content => content,
-        :words => words_number,
-        :chars => chars,
-        :spaces => spaces_number,
-        :punctuations => punctuations_number
-      )
-      last_time = time
-    end
-    return true
   end
 
   def clean_content(content)
@@ -108,17 +46,6 @@ class Efile
   def directory_or_create(destination_dir)
     Dir.mkdir(destination_dir) unless File.exist?(destination_dir)
   end
-  
-  # def download(url, path = 'download_file/')
-  #   filename = @download_url[@download_url.rindex('/')+1, @download_url.length-1]
-  #   path = ROOT_PATH + '/' + path
-
-  #   download_file = File.new("./#{path}" + filename, 'w+')
-  #   download_file.binmode
-  #   download_file << open(@download_url).read
-  #   download_file.flush
-  #   download_file.close
-  # end
 
   def self.get_filename(url)
     url[url.rindex('/')+1, url.length-1]
@@ -131,13 +58,8 @@ class Efile
     path = ROOT_PATH + '/' + path
 
     self.wget({'directory' => path, 'url' => url, 'out_file' => path+filename})
-    # download_file = File.new("#{path}" + filename, 'w+')
-    # download_file.binmode
-    # download_file << open(url, 'User-Agent' => 'ruby').read
-    # download_file.flush
-    # download_file.close
-    return true
 
+    return true
   end
 
   def self.wget(opt = {})
@@ -151,7 +73,7 @@ class Efile
       `wget -O '#{out_file}' '#{url}'`
       raise 'wget download file error' if $?.to_i != 0
 
-      gbk_to_utf8(out_file) if url[-3, 3] == 'lrc'
+      gbk_to_utf8(out_file, ROOT_PATH + '/download_file/english_lrc') if url[-3, 3] == 'lrc'
     rescue Exception => e
       if times == 0
         raise e
@@ -161,9 +83,10 @@ class Efile
     end
   end
 
-  def self.gbk_to_utf8(input)
-    f = File.new(input + '.utf8', 'w+')
-    f.write File.open(input).read.encode("utf-8", "gbk")
+  def self.gbk_to_utf8(input_file, out_dir)
+    file = Pathname.new(input_file)
+    f = File.new(out_dir + '/' + file.basename.to_s, 'w+')
+    f.write File.open(input_file).read.encode("utf-8", "gbk")
     f.close
   end
 
