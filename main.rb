@@ -61,7 +61,6 @@ def download_voa
       end
 
       if caption.nil?
-        next
         content = agent.get_content(page)
         agent.save_content(content, URI.encode(download, '[]'), 'download_file/content')
         agent.download(URI.encode(download, '[]'), "download_file/english/") unless download.nil?

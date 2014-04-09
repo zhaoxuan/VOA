@@ -66,6 +66,7 @@ class Efile
     directory = opt['directory']
     url       = opt['url']
     out_file  = opt['out_file']
+    return if File.exist?(out_file)
 
     times = 3
     begin
