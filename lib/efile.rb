@@ -66,7 +66,24 @@ class Efile
     directory = opt['directory']
     url       = opt['url']
     out_file  = opt['out_file']
-    return if File.exist?(out_file)
+
+    if File.exist?(out_file)
+      header = `curl -I #{url}`
+      content_length = 0
+      header.split("\r\n").each do |line|
+        regular = /Content-Length\:/.match(line)
+        next if regular.nil?
+        content_length = regular.post_match.to_s.strip.to_i
+      end
+
+      file_size = File.size(out_file).to_i
+
+      if file_size == content_length
+        return
+      else
+        File.delete(out_file)
+      end
+    end
 
     times = 3
     begin
@@ -98,5 +115,5 @@ class Efile
     download_file.write(content)
     download_file.close
   end
-  
+
 end
