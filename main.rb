@@ -42,6 +42,7 @@ def download_voa
   home_page = agent.get_page('http://www.51voa.com/')
   logger    = Logger.new("log/development.log")
   logger.datetime_format = "%Y-%m-%d %H:%M:%S"
+  success, failure = 0, 0
 
   agent.get_article_array(home_page).each do |download_info|
     # get_article_arra 返回一个 二维数组，里面第一个元素是页面上听力的类型，第二个是标题，第三个是页面的url
@@ -69,12 +70,17 @@ def download_voa
         agent.download(URI.encode(download, '[]'), "download_file/english_lrc/") unless download.nil?
       end
 
+      success += 1
       logger.info("success")
     rescue Exception => e
+      failure += 1
       send_mail({'suject' => "download voa error", 'body' => "#{e.backtrace.join("\n")}"})
       logger.error("can not download title: #{title} link: #{link} error: #{e}")
     end
   end
+
+  send_mail({'suject' => "Download has completed", 'body' => "success: #{success}.\nfailure: #{failure}"})
+
 end
 
 def hist_downlaod(download_num = 1)
